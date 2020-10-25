@@ -1,0 +1,50 @@
+.page .row div{
+	padding: 0;
+}
+.page h1{
+	font-weight: bold !important;
+	font-size: 44px !important;
+	margin-bottom: 100px;
+}
+.page .header-buttons:hover,
+.page .header-buttons:active,
+.page .header-buttons{
+	color: #252525 !important;
+	text-decoration: none !important;
+}
+.page .header-buttons{
+	display: inline-block;
+	background: #fbd46d ;
+	color: #252525 ;
+	border: 0 ;
+	font-size: 18px ;
+	padding: 5px 30px ;
+	border-radius: 38px;
+	margin-top: 50px;
+	text-decoration: none;
+	cursor: pointer;
+}
+.page .cards{
+	background: #f6f6f6;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	border-radius: 50%;
+	cursor: pointer;
+	padding-top: 65px !important;
+}
+.page .cards img{
+	display: block;
+	margin: auto;
+}
+.page p{
+	font-size: 24px !important;
+	color: #252525 !important;
+	margin-top: 30px !important; 
+}
+.page .active p{
+	font-weight: bold;
+}
+.page .active .cards{
+	background: #fbd46d;
+}

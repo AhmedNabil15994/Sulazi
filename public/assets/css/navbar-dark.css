@@ -1,0 +1,61 @@
+@media (min-width: 1200px){
+	.container {
+	    width: 90%;
+	    margin-left: 5%;
+	}
+}
+nav.navbar-default{
+	background: rgba(37, 37, 37,.8);
+	border: 0;
+	width: 100%;
+	border-radius: 0;
+}
+.nav>li{
+	font-size: 18px;
+	padding: 40px 10px;
+}
+.nav>li a:not(.my-btn){
+	color: #f6f6f6 !important;
+}
+.navbar-default .navbar-nav a:hover:not(.my-btn),
+.navbar-default .navbar-nav>.active>a:hover:not(.my-btn),
+.navbar-default .navbar-nav>.active>a:not(.my-btn){
+	background-color: transparent;
+}
+.my-btn{
+	width: 190px;
+	height: 50px;
+	border-radius: 25px;
+	background-color: #eec946 !important;
+	color: #252525 !important;
+	text-align: center;
+	font-size: 16px;
+}
+.my-btn:hover,
+.my-btn:active,
+.my-btn.active{	
+	background-color: #eec946 !important;
+}
+.img-anc{
+	padding-top: 5px !important;
+    padding-left: 30px !important;
+}
+.img-anc img{
+	width: 40px;
+}
+.navbar-image{
+	transition: all ease-in-out .25s;
+	height: 100px;
+}
+.has-cart{
+	position: relative;
+}
+.has-cart .cart-dot{
+	position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #eec946;
+    border-radius: 50%;
+    right: 9px;
+    border: 1px solid #252525;
+}
