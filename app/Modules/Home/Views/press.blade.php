@@ -4,38 +4,12 @@
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/pages.css') }}">
-<style type="text/css" media="screen">
-	.page h1{
-		margin-bottom: 30px !important;
-	}
-	.myCard{
-		display: inline-block;
-		float: left;
-		padding-right: 30px;
-		width: 18%;
-		margin-right: 2%;
-	}
-	.myCard img{
-		display: block;
-		width: 100%;
-		height: 200px;
-		border-radius: 15px;
-	}
-	.myCard p{
-		font-weight: bold;
-		margin-top: 10px !important;
-	}
-	div.row{
-		margin-bottom: 50px !important;
-	}
-</style>
+<link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/press.css') }}">
 @endsection
 @section('logo', URL::to('/assets/images/logo.png'))
 @section('cart', URL::to('/assets/images/cart-icon2.png'))
 
 @section('content')
-
 	<div class="col-xs-12 col-md-12 second-section page">
 		<div class="container">
 			<div class="interior roomlift text-center">
@@ -87,15 +61,8 @@
 			</div>
 		</div>
 	</div>
-
-	
-
 @endsection
 
 @section('scripts')
-<script>
-	
 
-
-</script>
 @endsection

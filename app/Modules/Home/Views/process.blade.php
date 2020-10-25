@@ -4,73 +4,12 @@
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/pages.css') }}">
-<style type="text/css" media="screen">
-	.page h1{
-		margin-bottom: 30px !important;
-		margin-top: 80px !important;
-	}
-	.page p:first-of-type{
-		margin-bottom: 0 !important;
-		line-height: 1.5; 
-	}
-	.page p:nth-of-type(2){
-		margin-top: 0 !important;
-		line-height: 1.5; 
-	}
-	.myCard{
-		display: inline-block;
-		float: left;
-		padding-right: 30px;
-		width: 18%;
-		margin-right: 2%;
-	}
-	.myCard img{
-		display: block;
-		width: 100%;
-		height: 200px;
-		border-radius: 15px;
-	}
-	.myCard p{
-		font-weight: bold;
-		margin-top: 10px !important;
-	}
-	div.row{
-		margin-bottom: 50px !important;
-	}
-	.header-button{
-		padding-top: 10px !important;
-		padding-bottom: 10px !important;
-		margin-bottom: 70px !important;
-	}
-	.process{
-	}
-	.process h1{
-		font-weight: 300 !important;
-		margin-bottom: 50px !important;
-		font-family: Quicksand, sans-serif !important;
-	}
-	.main-section{
-		margin-bottom: 100px;
-	}
-	.last-img{
-		margin-bottom: 50px;
-	}
-	.images-section .col-xs-12{
-		padding: 0;
-		margin-bottom: 25px;
-	}
-	.images-section .col-xs-12 p{
-		margin-top: 15px !important;
-		font-size: 20px !important;
-	}
-</style>
+<link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/process.css') }}">
 @endsection
 @section('logo', URL::to('/assets/images/logo.png'))
 @section('cart', URL::to('/assets/images/cart-icon2.png'))
 
 @section('content')
-
 	<div class="col-xs-12 col-md-12 second-section page">
 		<div class="container">
 			<div class="interior roomlift text-center">
@@ -201,13 +140,8 @@
 			<div class="clearfix"></div>
 		</div>
 	</div>
-
 @endsection
 
 @section('scripts')
-<script>
-	
 
-
-</script>
 @endsection

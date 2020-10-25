@@ -17,28 +17,29 @@
     <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="{{ URL::to('/') }}">Home <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">How It Works</a></li>
-        <li><a href="#">Shop</a></li>
-        <li><a href="#">Faq</a></li>
-        <li><a class="my-btn" href="#">Get Started</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ URL::to('/details') }}">The Details</a></li>
+              <li><a href="{{ URL::to('/process') }}">The Process</a></li>
+              <li><a href="{{ URL::to('/prices') }}">Prices & Packages</a></li>
+            </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="{{ URL::to('/boxes') }}">The Boxes</a></li>
+              <li><a href="{{ URL::to('/giftCard') }}">Gift Card</a></li>
+            </ul>
+        </li>
+        <li><a href="{{ URL::to('/faqs') }}">Faq</a></li>
+        <li><a class="my-btn" href="{{ URL::to('/getStarted') }}">Get Started</a></li>
         <li>
           <a class="@yield('has-cart') img-anc" href="#">
             <img src="@yield('cart')" alt="">
             <span class="cart-dot"></span>
           </a>
         </li>
-        {{-- <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li> --}}
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container -->

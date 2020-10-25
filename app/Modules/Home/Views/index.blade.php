@@ -4,6 +4,7 @@
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/home.css') }}">
 @endsection
 @section('logo', URL::to('/assets/images/logo2.png'))
 @section('cart', URL::to('/assets/images/cart-icon.png'))

@@ -1,0 +1,124 @@
+.page .row div{
+	padding: 0;
+}
+.page .interior{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.page h1{
+	font-weight: bold;
+	font-size: 44px;
+	margin-bottom: 100px;
+}
+.page .header-buttons:hover,
+.page .header-buttons:active,
+.page .header-buttons{
+	color: #252525;
+	text-decoration: none;
+}
+.page .header-buttons{
+	display: inline-block;
+	background: #fbd46d ;
+	color: #252525 ;
+	border: 0 ;
+	font-size: 18px ;
+	padding: 5px 30px ;
+	border-radius: 38px;
+	margin-top: 50px;
+	text-decoration: none;
+	cursor: pointer;
+	outline: 0;
+}
+.page .cards{
+	background: #f6f6f6;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	border-radius: 50%;
+	cursor: pointer;
+	padding-top: 65px;
+}
+.page .cards img{
+	display: block;
+	margin: auto;
+}
+.page p{
+	font-size: 24px;
+	color: #252525;
+	margin-top: 30px; 
+}
+.page .active p{
+	font-weight: bold;
+}
+.page .active .cards{
+	background: #fbd46d;
+}
+.page h1{
+	margin-bottom: 100px;
+}
+.page p{
+	font-weight: 300;
+	font-size: 26px;
+	margin-bottom: 70px;
+}
+.contact{
+	margin-bottom: 100px;
+}
+.page .row div.contact-info{
+	padding-right: 40px;
+}
+.page .row div.contact-info .contact-data{
+	background: #f6f6f6;
+	padding: 15px 20px; 
+}
+.contact-info span{
+	display: block;
+	font-weight: 400;
+	font-family: Quicksand, sans-serif;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+.contact-info span:first-of-type{
+	font-weight: 300px;
+	letter-spacing: 0;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+form{
+	width: 50%;
+	display: block;
+	margin: auto;
+	text-align: initial;
+}
+form span{
+	color: #252525;
+	font-weight: 400;
+	font-size: 18px;
+	margin-bottom: 20px;
+	display: block;
+}
+form input,
+form textarea{
+	border: 1px solid #252525;
+	border-radius: 40px;
+	display: block;
+	width: 100%;
+	padding: 10px 20px;
+	margin-bottom: 30px;
+	outline: 0;
+}
+form textarea{
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 150px;
+	border-radius: 15px;
+}
+.page .header-buttons{
+	width: 200px;
+	display: block;
+	margin: auto;
+	padding: 10px 30px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	outline: 0;
+}

@@ -29,14 +29,14 @@
 	cursor: pointer;
 	outline: 0;
 }
-.page .row div.cards{
+.page .cards{
 	background: #f6f6f6;
 	width: 200px;
 	height: 200px;
 	margin: auto;
 	border-radius: 50%;
 	cursor: pointer;
-	padding-top: 60px;
+	padding-top: 65px;
 }
 .page .cards img{
 	display: block;
@@ -50,6 +50,20 @@
 .page .active p{
 	font-weight: bold;
 }
-.page .row .active .cards{
+.page .active .cards{
 	background: #fbd46d;
+}
+.page p.main{
+	font-weight: 400;
+	font-size: 22px;
+	margin-bottom: 50px;
+}
+.page b{
+	font-size: 22px;
+	margin-bottom: 50px;
+}
+.page .header-buttons{
+	background: transparent;
+	border: 1px solid #252525;
+	margin-bottom: 50px;
 }

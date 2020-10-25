@@ -10,7 +10,6 @@
 @section('cart', URL::to('/assets/images/cart-icon2.png'))
 
 @section('content')
-
 	<div class="col-xs-12 second-section page">
 		<div class="container">
 			<div class="interior roomlift text-center">
@@ -30,20 +29,13 @@
 						<p>Own</p>
 					</div>
 					<div class="clearfix"></div>
-					<a class="header-buttons">Continue</a>
+					<a href="{{ URL::to('/third') }}" class="header-buttons">Continue</a>
 				</div>
 			</div>
 		</div>
 	</div>
-
-	
-
 @endsection
 
 @section('scripts')
-<script>
-	
 
-
-</script>
 @endsection

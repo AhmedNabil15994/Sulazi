@@ -1,26 +1,46 @@
-@media (min-width: 1200px){
-	.container {
-	    width: 90%;
-	    margin-left: 5%;
-	}
-}
-nav.navbar-default{
-	background: rgba(37, 37, 37,.8);
+nav.navbar{
+	background: #252525;
 	border: 0;
 	width: 100%;
 	border-radius: 0;
 }
 .nav>li{
-	font-size: 18px;
+	font-size: 20px;
 	padding: 40px 10px;
 }
-.nav>li a:not(.my-btn){
-	color: #f6f6f6 !important;
+.navbar-default .navbar-nav>.active>a{
+	color: #f6f6f6;
 }
-.navbar-default .navbar-nav a:hover:not(.my-btn),
-.navbar-default .navbar-nav>.active>a:hover:not(.my-btn),
-.navbar-default .navbar-nav>.active>a:not(.my-btn){
-	background-color: transparent;
+.navbar .navbar-nav>li>a{
+	color: #f6f6f6;
+}
+.navbar .navbar-nav a:hover:not(.my-btn),
+.navbar .navbar-nav>.active>a:hover:not(.my-btn),
+.navbar .navbar-nav>.active>a:not(.my-btn),
+.navbar .navbar-nav>.open>a,
+.navbar .navbar-nav>.open>a:focus,
+.navbar .navbar-nav>.open>a:hover{
+	background: transparent;
+	color: #f6f6f6;
+}
+.navbar-nav>li>.dropdown-menu{
+	background: #f6f6f6;
+    font-size: 16px;
+    padding: 0;
+}
+.navbar-nav>li>.dropdown-menu>li>a{
+	color: #252525;
+}
+.navbar-nav>li>.dropdown-menu>li{
+	font-size: 16px;
+	padding: 10px;
+	transition: all ease-in-out .25s;
+}
+.navbar-nav>li>.dropdown-menu>li:hover{
+	background-color: #252525;
+}
+.navbar-nav>li>.dropdown-menu>li:hover a{
+	color: #f6f6f6;
 }
 .my-btn{
 	width: 190px;
@@ -58,4 +78,10 @@ nav.navbar-default{
     border-radius: 50%;
     right: 9px;
     border: 1px solid #252525;
+}
+@media (min-width: 1200px){
+	.container {
+	    width: 90%;
+	    margin-left: 5%;
+	}
 }

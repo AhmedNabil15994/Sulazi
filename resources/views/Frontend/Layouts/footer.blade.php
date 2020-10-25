@@ -9,12 +9,12 @@
 			<img src="{{ URL::to('/assets/images/twitter.png') }}" alt="icon">
 		</div>
 		<div class="row">
-			<a href="#">How It Works</a>
-			<a href="#">Prices</a>
-			<a href="#">Shop</a>
-			<a href="#">Gift Card</a>
-			<a href="#">Contact Us</a>
-			<a href="#">Faqs</a>
+			<a href="{{ URL::to('/info') }}">How It Works</a>
+			<a href="{{ URL::to('/prices') }}">Prices</a>
+			<a href="{{ URL::to('/press') }}">Press</a>
+			<a href="{{ URL::to('/giftCard') }}">Gift Card</a>
+			<a href="{{ URL::to('/contactUs') }}">Contact Us</a>
+			<a href="{{ URL::to('/faqs') }}">Faqs</a>
 			<a href="#">Terms & Conditions</a>
 		</div>
 		<div class="row rights">

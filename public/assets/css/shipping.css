@@ -1,0 +1,224 @@
+.page .row div{
+	padding: 0;
+}
+.page .interior{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.page h1{
+	font-weight: bold;
+	font-size: 44px;
+	margin-bottom: 100px;
+}
+.page .header-buttons:hover,
+.page .header-buttons:active,
+.page .header-buttons{
+	color: #252525;
+	text-decoration: none;
+}
+.page .header-buttons{
+	display: inline-block;
+	background: #fbd46d ;
+	color: #252525 ;
+	border: 0 ;
+	font-size: 18px ;
+	padding: 5px 30px ;
+	border-radius: 38px;
+	margin-top: 50px;
+	text-decoration: none;
+	cursor: pointer;
+	outline: 0;
+}
+.page .row div.cards{
+	background: #f6f6f6;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	border-radius: 50%;
+	cursor: pointer;
+	padding-top: 60px;
+}
+.page .cards img{
+	display: block;
+	margin: auto;
+}
+.page p{
+	font-size: 24px;
+	color: #252525;
+	margin-top: 30px; 
+}
+.page .active p{
+	font-weight: bold;
+}
+.page .row .active .cards{
+	background: #fbd46d;
+}
+.page h1{
+	margin-bottom: 70px;
+	font-weight: bold;
+}
+p.head-p{
+	margin-bottom: 70px;
+	margin-top: 0;
+}
+p.head-p span.active{
+	font-weight: bold;
+}
+p.head-p span{
+	margin-right: 15px;
+	margin-left: 15px;
+}
+p.title{
+	text-align: initial;
+	font-weight: bold;
+	margin-bottom: 20px;
+	display: inline-block;
+	width: 50%;
+	float: left;
+}
+.page .header-buttons{
+	margin-top: 30px ;
+	margin-bottom: 25px ;
+	padding: 10px 40px ;
+}
+.page .row div.details{
+	background: #f6f6f6;
+	border-radius: 5px;
+	padding: 15px 30px;
+	text-align: initial;
+	font-size: 20px;
+	color: #252525;
+}
+.page .details p{
+	margin-bottom: 10px;
+	margin-top: 0;
+	font-weight: 300;
+	color: #252525;
+	font-size: 20px;
+}
+.back,
+.back:hover,
+.back:active,
+.back.active{
+	font-size: 20px;
+	display: inline-block;
+	width: 50%;
+	float: left;
+	text-align: initial;
+	color: #252525;
+	text-decoration: none;
+	margin-top: 100px;
+	cursor: pointer;
+}
+.back i{
+	font-size: 28px;
+    float: left;
+    margin-right: 10px;
+}
+.header-buttons.last{
+	margin-top: 90px;
+}
+span.method{
+	display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: bold;
+    font-family: Quicksand;
+    font-size: 20px;
+}
+span.price{
+	float: right;
+	font-weight: bold;
+	font-size: 20px;
+}
+span.duration{
+	display: block;
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom: 0;
+	margin-left: 30px;
+}
+.page .row div.payment-card{
+	background: #252525;
+	padding: 40px 30px;
+	border-radius: 5px;
+	color: #f6f6f6;
+}
+div.payment-card .row{
+	margin: 0;
+}
+div.payment-card .col-md-7{
+	text-align: initial;
+	padding-left: 15px;
+}
+div.payment-card .col-md-7,
+div.payment-card .col-md-2{
+	margin-top: 10px;
+}
+div.payment-card img{
+	border-radius: 5px;
+	max-width: 200px;
+	max-height: 100px;
+}
+div.payment-card p,
+div.payment-card span{
+	color: #f6f6f6;
+	font-size: 20px;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 20px;
+	display: block;
+}
+div.payment-card span{
+	text-align: initial;
+}
+div.payment-card span.head-span{
+	display: block;
+	color: #252525;
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 20px;
+	display: block;
+	font-weight: bold;
+}
+div.payment-card span.head-span.apply{
+	color: #f6f6f6;
+}
+input,
+textarea{
+	font-size: 20px;
+	border: 1px solid #252525;
+	border-radius: 40px;
+	display: block;
+	width: 100%;
+	padding: 10px 20px;
+	outline: 0;
+	background: transparent;
+	color: #f6f6f6;
+}
+textarea{
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 150px;
+	border-radius: 15px;
+}
+input.reverse{
+	color: #f6f6f6;
+	background-color: #252525;
+	border-color: #f6f6f6;
+}
+.payment-card .header-buttons{
+	float: right;
+	width: 200px;
+	text-align: center;	
+	margin-bottom: 10px;
+}
+.payment-card .col-xs-6.text-left{
+	font-size: 20px;
+}
+.payment-card .col-xs-6.text-left:first-of-type{
+	margin-bottom: 10px;
+}
+.payment-card .col-xs-6.text-right{
+	font-size: 18px;
+}

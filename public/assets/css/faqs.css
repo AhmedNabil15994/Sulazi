@@ -29,14 +29,14 @@
 	cursor: pointer;
 	outline: 0;
 }
-.page .row div.cards{
+.page .cards{
 	background: #f6f6f6;
 	width: 200px;
 	height: 200px;
 	margin: auto;
 	border-radius: 50%;
 	cursor: pointer;
-	padding-top: 60px;
+	padding-top: 65px;
 }
 .page .cards img{
 	display: block;
@@ -50,6 +50,42 @@
 .page .active p{
 	font-weight: bold;
 }
-.page .row .active .cards{
+.page .active .cards{
 	background: #fbd46d;
+}
+.page h1.first-head{
+	margin-bottom: 150px;
+}
+.faq-element{
+	margin-bottom: 30px;
+}
+.faq-element.open p{
+	display: block;
+}
+.faq-element span.first{
+	color: #252525;
+	font-family: Quicksand;
+	font-size: 24px;
+	font-weight: 400;
+}
+.faq-element span.last{
+	width: 36px;
+	height: 36px;
+	background-color: #e8e8e8;
+	font-size: 16px;
+	border-radius: 50%;
+	color: #000;
+	padding-top: 7px;
+	font-weight: 300;
+	cursor: pointer;
+}
+.faq-element p{
+	color: #777;
+	font-size: 22px;
+	text-align: initial;
+	line-height: initial;
+	display: none;
+}
+hr{
+	border-color: #252525;
 }

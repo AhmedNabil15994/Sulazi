@@ -1,0 +1,93 @@
+.page .row div{
+	padding: 0;
+}
+.page .interior{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.page h1{
+	font-weight: bold;
+	font-size: 44px;
+	margin-bottom: 100px;
+}
+.page .header-buttons:hover,
+.page .header-buttons:active,
+.page .header-buttons{
+	color: #252525;
+	text-decoration: none;
+}
+.page .header-buttons{
+	display: inline-block;
+	background: #fbd46d ;
+	color: #252525 ;
+	border: 0 ;
+	font-size: 18px ;
+	padding: 5px 30px ;
+	border-radius: 38px;
+	margin-top: 50px;
+	text-decoration: none;
+	cursor: pointer;
+	outline: 0;
+}
+.page .cards{
+	background: #f6f6f6;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	border-radius: 50%;
+	cursor: pointer;
+	padding-top: 65px;
+}
+.page .cards img{
+	display: block;
+	margin: auto;
+}
+.page p{
+	font-size: 24px;
+	color: #252525;
+	margin-top: 30px; 
+}
+.page .active p{
+	font-weight: bold;
+}
+.page .active .cards{
+	background: #fbd46d;
+}
+.page h1{
+	margin-bottom: 30px;
+}
+.page p.main{
+	font-weight: 300;
+	font-size: 20px;
+	margin-bottom: 70px;
+}
+.select2-container--default .select2-search--dropdown .select2-search__field,
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--single,
+.select2-container--default.select2-container--open.select2-container--below .select2-selection--multiple,
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+	outline: 0;
+}
+.page .row .box{
+	text-align: initial;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.box img{
+	width: 100%;
+	min-height: 300px;
+	border-radius: 15px;
+}
+.box p:first-of-type{
+	font-weight: 300;
+	font-size: 28px;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+.box p:last-of-type{
+	font-weight: bold;
+	font-size: 28px;
+	margin-top: 0;
+}
+.row{
+	margin-bottom: 50px;
+}

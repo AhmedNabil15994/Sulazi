@@ -53,3 +53,23 @@
 .page .row .active .cards{
 	background: #fbd46d;
 }
+.myCard{
+	display: inline-block;
+	float: left;
+	padding-right: 30px;
+	width: 18%;
+	margin-right: 2%;
+}
+.myCard img{
+	display: block;
+	width: 100%;
+	height: 200px;
+	border-radius: 15px;
+}
+.myCard p{
+	font-weight: bold;
+	margin-top: 20px;
+}
+div.row{
+	margin-bottom: 50px;
+}

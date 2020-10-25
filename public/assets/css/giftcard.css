@@ -53,3 +53,52 @@
 .page .row .active .cards{
 	background: #fbd46d;
 }
+.page img{
+	width: 100%;
+	height: 100%;
+}
+.page .row div.col-md-6{
+	padding-left: 40px;
+	padding-right: 40px;
+	text-align: initial;
+}
+.col-md-6 p{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.col-md-6 p:first-of-type{
+	font-weight: bold;
+}
+.col-md-6 span{
+	width: 18%;
+	margin-right: 2%;
+	border-radius: 40px;
+	border: 1px solid #252525;
+	padding: 10px 30px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	font-size: 18px;
+}
+.col-md-6 span.active{
+	border: 0;
+	background: #fbd46d;
+}
+.page .header-buttons{
+	display: block;
+	width: 100%;
+	font-size: 22px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.page .header-buttons:first-of-type{
+	background: transparent;
+	border: 1px solid #252525;
+}
+.page .header-buttons:last-of-type{
+	margin-top: 30px; 
+	margin-bottom: 30px; 
+}
+.col-md-6 p:last-of-type{
+	font-size: 20px;
+}

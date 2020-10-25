@@ -4,61 +4,7 @@
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
-<link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/pages.css') }}">
-<style type="text/css" media="screen">
-	.page h1.first-head{
-		margin-bottom: 50px !important;
-	}
-	img{
-		width: 100%;
-		height: 100%;
-	}
-	.col-md-6{
-		padding-left: 40px !important;
-		padding-right: 40px !important;
-		text-align: initial;
-	}
-	.col-md-6 p{
-		margin-top: 0 !important;
-		margin-bottom: 10px !important;
-	}
-	.col-md-6 p:first-of-type{
-		font-weight: bold;
-	}
-	.col-md-6 span{
-		width: 18%;
-		margin-right: 2%;
-		border-radius: 40px;
-		border: 1px solid #252525;
-		padding: 10px 30px;
-		float: left;
-		text-align: center;
-		cursor: pointer;
-		font-size: 18px;
-	}
-	.col-md-6 span.active{
-		border: 0;
-		background: #fbd46d;
-	}
-	.col-md-6 button{
-		display: block;
-		width: 100%;
-		font-size: 22px !important;
-		padding-top: 10px !important;
-		padding-bottom: 10px !important;
-	}
-	.col-md-6 button:first-of-type{
-		background: transparent !important;
-		border: 1px solid #252525;
-	}
-	.col-md-6 button:last-of-type{
-		margin-top: 30px !important; 
-		margin-bottom: 30px !important; 
-	}
-	.col-md-6 p:last-of-type{
-		font-size: 20px  !important;
-	}
-</style>
+<link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/giftcard.css') }}">
 @endsection
 @section('logo', URL::to('/assets/images/logo.png'))
 @section('cart', URL::to('/assets/images/cart-icon2.png'))
@@ -95,14 +41,5 @@
 @endsection
 
 @section('scripts')
-<script>
-	$(function(){
-		$('.col-md-6 span.gift').on('click',function(){
-			var myVal = $(this).html();
-			$(this).addClass('active').siblings('span.gift').removeClass('active');
-			var myValues = String(parseFloat(myVal)) + '.00 SR';
-			$('p.value').html(myValues);
-		});
-	})
-</script>
+<script src="{{ URL::to('/assets/js/gitcard.js') }}"></script>
 @endsection

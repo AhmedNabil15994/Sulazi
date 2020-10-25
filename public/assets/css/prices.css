@@ -53,3 +53,54 @@
 .page .row .active .cards{
 	background: #fbd46d;
 }
+.page h1.first-head{
+	margin-bottom: 150px;
+}
+.page .row div.myCard{
+	display: inline-block;
+	float: left;
+	padding: 30px;
+	width: 18%;
+	margin-right: 2%;
+	border-radius: 10px;
+	background: #f6f6f6;
+	min-height: 303px;
+}
+.myCard h1{
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+.myCard p{
+	font-weight: 300;
+	margin-top: 10px;
+	color: #252525;
+	font-size: 20px;
+}
+div.row{
+	margin-bottom: 100px;
+}
+.page .header-buttons{
+	color: #FFF;
+	margin-top: 10px;
+}
+.page .row .myCard.active{
+	background: #fbd46d;
+	position: relative;
+	overflow: hidden;
+}
+.page .myCard.active .header-buttons{
+	border: 1px solid #252525;
+	color: #252525;
+}
+.myCard.active p{
+	font-weight: 300;
+}
+.myCard.active span{
+	color: #FFF;
+	position: absolute;
+	background: #252525;
+	display: block;
+	right: -40px;
+	padding: 5px 40px;
+	transform: rotateZ(45deg);
+}

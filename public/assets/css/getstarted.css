@@ -22,7 +22,7 @@
 	color: #252525 ;
 	border: 0 ;
 	font-size: 18px ;
-	padding: 5px 30px ;
+	padding: 10px 30px ;
 	border-radius: 38px;
 	margin-top: 50px;
 	text-decoration: none;
@@ -52,4 +52,15 @@
 }
 .page .row .active .cards{
 	background: #fbd46d;
+}
+.page h1{
+	margin-bottom: 50px;
+}
+.page p{
+	font-weight: 500;
+	font-size: 40px;
+	margin-bottom: 0;
+}
+.row a{
+	margin-bottom: 100px;
 }
