@@ -68,6 +68,7 @@ body {
 .footer .row a{
 	padding: 20px 30px;
 	color: #FFF;
+	display: inline-block;
 	text-decoration: none;
 	font-size: 20px;
 }
@@ -196,89 +197,4 @@ div#overlay{
     margin-top: 40px;
     background: #EEC946;
 	outline: 0;
-}
-
-@media(max-width: 767px){
-	html,body{
-		overflow-x: hidden;
-	}
-	.navbar-brand{
-		display: none;
-	}
-	.navbar-default .navbar-collapse{
-		width: 100%;
-		background: #FFF;
-    	border-radius: 5px;
-    	padding: 0;
-    	margin: 0;
-	}
-	.nav>li{
-		padding: 10px 20px;
-		border-bottom: 1px solid #ddd;
-	}
-	.navbar-default .navbar-nav>li>a{
-		padding-top: 15px;
-	}
-	.has-cart .cart-dot{
-		position: unset;
-		display: inline-block;
-    	margin-left: -15px;
-	}
-	.data{
-		width: 100%;
-	}
-	.data h1{
-		font-size: 30px;
-	}
-	.container .interior{
-		padding: 0 !important;
-		padding-top: 15px !important;
-		padding-bottom: 15px !important;
-	}
-	.reverse{
-		margin-bottom: 20px !important;
-	}
-	.second-section.images{
-		max-height: 1000px !important;
-	}
-	.container .interior .image-holder{
-	    display: block !important;
-	    max-width: 100% !important;
-	    max-height: 100% !important;
-	    margin: 0 !important;
-	    padding: 0 !important; 
-	}
-	.container .interior .image-holder img{
-		width: 100% !important;
-		height: 100% !important;
-	}
-	.bx-wrapper .bx-controls-direction a.bx-prev{
-		left: -25px !important;
-	}
-	.bx-wrapper .bx-controls-direction a.bx-next{
-		right: -25px !important;
-	}
-	.arts{
-		max-height: 1800px;
-	}
-	.lest2 .slider-data{
-		padding: 10px;
-	}
-	.lest2 .slider-data p{
-		font-size: 14px;
-	}
-	.footer .row a{
-		font-size: 16px;
-		padding: 10px;
-	}
-	.footer .row.rights{
-		font-size: 16px;
-	}
-	.lest2 .slider-data h1{
-		font-size: 18px !important;
-	}
-	.lest2{
-		max-width: 100% !important;
-	    max-height: 100% !important;
-	}
 }

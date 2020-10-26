@@ -79,6 +79,67 @@ nav.navbar{
     right: 9px;
     border: 1px solid #252525;
 }
+@media(max-width: 767px){
+	.navbar-default .navbar-nav{
+		background: #252525;
+	}
+	.navbar-nav{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	.navbar-toggle{
+		margin-right: 0;
+	}
+	.navbar .container{
+		padding: 0;
+	}
+	.navbar-header{
+		background: #252525;
+		padding: 0 15px;
+		margin: 0 !important;
+	}
+	.navbar .my-btn{
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.navbar-default .navbar-toggle,
+	.navbar-default .navbar-toggle:focus, 
+	.navbar-default .navbar-toggle:hover{
+		border-color: #F6F6F6;
+		background-color: #252525;
+	}
+	.sr-only{
+		color: #F6F6F6
+	}
+	.navbar-brand{
+		display: none;
+	}
+	.navbar-default .navbar-collapse{
+		width: 100%;
+		background: #FFF;
+    	border-radius: 5px;
+    	padding: 0;
+    	margin: 0;
+	}
+	.nav>li{
+		padding: 10px 20px;
+		border-bottom: 1px solid #ddd;
+	}
+	.navbar-default .navbar-nav>li>a{
+		padding-top: 15px;
+		transition: all ease-in-out .25s;
+	}
+	.navbar-default .navbar-nav>li>a:hover{
+		color: #f6f6f6;
+		background-color: #252525
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+		color: #f6f6f6;
+	}
+	.has-cart .cart-dot{
+    	left: 50px;
+	}
+}
 @media (min-width: 1200px){
 	.container {
 	    width: 90%;

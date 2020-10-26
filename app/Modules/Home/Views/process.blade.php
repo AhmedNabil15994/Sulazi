@@ -10,10 +10,10 @@
 @section('cart', URL::to('/assets/images/cart-icon2.png'))
 
 @section('content')
-	<div class="col-xs-12 col-md-12 second-section page">
+	<div class="col-xs-12 col-md-12 second-section page process">
 		<div class="container">
 			<div class="interior roomlift text-center">
-				<img src="{{ URL::to('/assets/images/process.png') }}" alt="process">
+				<img class="img" src="{{ URL::to('/assets/images/process.png') }}" alt="process">
 				<h1>Our Process </h1>
 				<p>How The Process Of Sulazi Work?</p>
 				<p>We are an online interior design service that combine the knowledge and personalization you get from working with a real designer. You will see interior design interior ideas in your exact room, collaborate online with your designer, and shop your entire look</p>

@@ -81,10 +81,10 @@ img.main-image{
 	border-radius: 40px;
 	border: 1px solid #252525;
 	padding: 10px 30px;
-	float: left;
 	text-align: center;
 	cursor: pointer;
 	font-size: 18px;
+	display: inline-block;
 }
 .col-md-6 span.active{
 	border: 0;

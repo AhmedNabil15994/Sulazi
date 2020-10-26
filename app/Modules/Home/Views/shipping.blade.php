@@ -10,7 +10,7 @@
 @section('cart', URL::to('/assets/images/cart-icon2.png'))
 
 @section('content')
-	<div class="col-xs-12 second-section page">
+	<div class="col-xs-12 second-section page shipping">
 		<div class="container">
 			<div class="interior roomlift text-center">
 				<h1>Sulazi</h1>
@@ -60,9 +60,6 @@
 							<span class="price">450 SR</span><br>
 							<span class="duration">Take From 4 To & Days</span>
 						</div>
-
-						<a href="{{ URL::to('/info') }}" class="back"><i class="fa fa-angle-left"></i> Back To Information</a>
-						<a href="{{ URL::to('/payment') }}" class="header-buttons pull-right last">Continue To Payment</a>
 					</div>
 					<div class="col-xs-12 col-md-2"></div>
 					<div class="col-xs-12 col-md-5">
@@ -107,6 +104,13 @@
 								<div class="col-xs-6 text-right">1700 SR</div>
 							</div>
 						</div>
+					</div>
+					<div class="clearfix"></div>
+					<div class="row">
+						<div class="col-xs-12 col-md-5">
+							<a href="{{ URL::to('/info') }}" class="back"><i class="fa fa-angle-left"></i> Back To Information</a>
+							<a href="{{ URL::to('/payment') }}" class="header-buttons pull-right last">Continue To Payment</a>
+						</div>		
 					</div>
 				</div>
 			</div>

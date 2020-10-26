@@ -65,6 +65,7 @@
 	margin-bottom: 100px;
 	outline: 0;
 	width: 500px !important;
+	max-width: 500px !important;
 }
 .select2-container--default .select2-selection--single{
 	border: 0;

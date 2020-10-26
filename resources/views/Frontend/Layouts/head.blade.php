@@ -14,5 +14,5 @@
 <link href="{{ asset('assets/vendors/iCheck/skins/square/_all.css')}}" rel="stylesheet">
 <!-- css file -->
 <link rel="stylesheet" href="{{asset('assets/css/main.css')}}"/>
-
 @yield('styles')
+<link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}"/>

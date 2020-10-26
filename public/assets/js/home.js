@@ -22,10 +22,10 @@ $(function(){
       	spaceBetween: 30,
       	loop: true,
       	centeredSlides: true,
-      	// autoplay: {
-       //  	delay: 2500,
-       //  	disableOnInteraction: false,
-      	// },
+      	autoplay: {
+        	delay: 2500,
+        	disableOnInteraction: false,
+      	},
       	pagination: {
         	el: '.swiper-pagination',
         	clickable: true,
@@ -37,6 +37,7 @@ $(function(){
     	maxSlides: 6,
     	responsive:true,
     	pager: false,
+      touchEnabled: false,
     });
 
     $('.slider2').bxSlider({
@@ -44,6 +45,7 @@ $(function(){
     	maxSlides: 3,
     	responsive:true,
     	pager: false,
+      touchEnabled: false,
     });
 
 });

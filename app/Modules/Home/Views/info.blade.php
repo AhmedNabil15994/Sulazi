@@ -10,7 +10,7 @@
 @section('cart', URL::to('/assets/images/cart-icon2.png'))
 
 @section('content')
-	<div class="col-xs-12 second-section page">
+	<div class="col-xs-12 second-section page info">
 		<div class="container">
 			<div class="interior roomlift text-center">
 				<h1>Sulazi</h1>
@@ -22,7 +22,7 @@
 					<span>Payment</span>
 				</p>
 
-				<div class="row">
+				<div class="row first">
 					<div class="col-xs-12 col-md-5">
 						<p class="title">Express Check Out</p>
 						<div class="clearfix"></div>
@@ -49,6 +49,7 @@
 								<input type="email" name="email" placeholder="Example147@gmail.com">
 								<input type="checkbox" class="iCheck" name="iCheck">
 								<span class="icheck-info">Keep Me Up To Date On News And Exclusive Offers</span>
+								<div class="clearfix"></div>
 							</div>
 						</div>
 					</div>

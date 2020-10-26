@@ -10,7 +10,7 @@
 @section('cart', URL::to('/assets/images/cart-icon2.png'))
 
 @section('content')
-	<div class="col-xs-12 second-section page">
+	<div class="col-xs-12 second-section page payment">
 		<div class="container">
 			<div class="interior roomlift text-center">
 				<h1>Sulazi</h1>
@@ -180,6 +180,7 @@
 						</div>
 						<div class="col-xs-12 last-text text-left">
 							<input type="checkbox" class="iCheck" name="myCheck"> <span class="last-save"> Save My Information For A Faster Checkout</span> 
+							<div class="clearfix"></div>
 						</div>
 
 						<a href="{{ URL::to('/shipping') }}" class="back"><i class="fa fa-angle-left"></i> Back To Shipping</a>

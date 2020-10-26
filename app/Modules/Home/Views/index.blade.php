@@ -62,7 +62,7 @@
 							<img src="{{ URL::to('/assets/images/icon1.png') }}" alt="icon">
 							<h3>Tell us about yourself and <br> your space</h3>
 							<p>Fill out this questionnaire for each roomLift that you are purchasing. This will help us get to know you and your design preferences and objectives.</p>
-							<a href="#" class="header-button">Questionare</a>
+							<a href="{{ URL::to('/questionnaire') }}" class="header-button">Questionare</a>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-4 col-sm-6">
@@ -70,7 +70,7 @@
 							<img src="{{ URL::to('/assets/images/icon2.png') }}" alt="icon">
 							<h3>Send us a couple of photos <br> & pay for your box</h3>
 							<p>Take 5-8 photos of your space(s) that need a roomLift. Make sure to label them with your name (LastName, FirstName) so we know that it’s from you!</p>
-							<a href="#" class="header-button">Upload</a>
+							<a href="{{ URL::to('/uploadPage') }}" class="header-button">Upload</a>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-4 col-sm-6">
@@ -78,7 +78,7 @@
 							<img src="{{ URL::to('/assets/images/icon3.png') }}" alt="icon">
 							<h3>Receive your roomLift <br> designs within 2-3 weeks!</h3>
 							<p>In about 2 weeks you will receive your roomLift Box(es) on your doorstep….it's like a little present full of design ideas and solutions!</p>
-							<a href="#" class="header-button">Details</a>
+							<a href="{{ URL::to('/details') }}" class="header-button">Details</a>
 						</div>
 					</div>
 				</div>

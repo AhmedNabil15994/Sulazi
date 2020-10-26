@@ -29,7 +29,7 @@
 						<p>Soonish</p>
 					</div>
 					<div class="col-xs-12 col-md-2 col-sm-6 text-center">
-						<div class="cards">
+						<div class="cards rush">
 							<img src="{{ URL::to('/assets/images/no-rush.png') }}" alt="icon">							
 						</div>
 						<p>No Rush</p>

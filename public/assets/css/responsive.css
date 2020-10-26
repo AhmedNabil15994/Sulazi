@@ -1,0 +1,408 @@
+/*********************8********************* Responsive ***************************************************/
+
+@media(max-width: 767px){
+	#first .swiper-slide{
+		background-size: 100% 100%;
+    	background-repeat: no-repeat;
+	}
+	.data{
+		width: 100%;
+		top: 30%;
+	}
+	.data h1{
+		font-size: 26px;
+	}
+	.data button{
+		width: 200px;
+		height: 50px;
+		font-size: 22px;
+	}
+
+
+	.col-xs-12 .container,
+	.col-xs-12 .container>.col-xs-12{
+		padding: 0;
+	}
+	.container .interior{
+		padding: 0;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.container .interior h1{
+		margin-bottom: 25px;
+		font-size: 30px !important;
+    	font-weight: 700 !important;
+	}
+	.container .interior p{
+		font-size: 20px;
+	}
+	.container .interior .header-button{
+		margin-bottom: 40px;
+		font-size: 22px;
+	}
+	.container .interior.roomlift h1, 
+	.container .interior.collections h1, 
+	.container .interior.follow h1{
+		font-size: 40px;
+		margin-bottom: 50px;
+	} 
+
+	.container .interior.roomlift .card{
+		padding: 30px 15px;
+	}
+	.container .interior.roomlift .card h3{
+		font-size: 28px;
+	}
+	.container .interior.roomlift .card p{
+		font-size: 20px;
+	}
+	.container .interior.box-section{
+		padding: 50px 0;
+	}
+	.container .interior.box-section p{
+		font-size: 20px;
+	}
+
+	/*.reverse{
+		margin-bottom: 20px;
+		font-size: 22px !important;
+	}*/
+	.second-section.images{
+		max-height: 1000px;
+	}
+	.container .interior.siosi-image .image-holder,
+	.arts .container .interior.siosi-image .image-holder{
+	    display: block;
+	    max-width: 100%;
+	    max-height: 100%;
+	    margin: 0;
+	    padding: 0; 
+	}
+
+	.dark-section{
+		padding-top: 100px;
+	}
+	.arts .container .interior.siosi-image{
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+
+	.container .interior.siosi .header-button.reverse{
+		margin-bottom: 0;
+		margin-top: 20px;
+	}
+	.container .interior .image-holder img{
+		width: 100% !important;
+		height: 100% !important;
+	}
+	
+	.arts{
+		max-height: 1800px;
+	}
+
+	.arts .container .interior.siosi.first{
+		padding-top: 75px;
+		padding-bottom: 0;
+	}
+	.arts .container .interior.siosi-image.second .image-holder{
+		margin-top: 50px; 
+		margin-bottom: 50px; 
+	}
+	.container .interior.collections{
+		padding-top: 75px;
+		padding-bottom: 0;
+	}
+
+	.bx-wrapper{
+		width: 94%;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-bottom: 0;
+	}
+	.bx-wrapper .bx-controls-direction a.bx-prev{
+		left: -25px !important;
+	}
+	.bx-wrapper .bx-controls-direction a.bx-next{
+		right: -25px !important;
+	}
+	.lest2{
+		width: 267px !important;
+		height: 267px !important;
+	}
+	.tips .bx-wrapper .bx-controls-direction a{
+		top: 100px;
+	}
+	.lest2 .slider-data{
+		padding: 10px;
+	}
+	.lest2 .slider-data p{
+		font-size: 14px;
+	}
+	.lest2 .slider-data h1{
+		font-size: 18px !important;
+	}
+	.dark-section.footer{
+		padding-top: 50px;
+	}
+	.footer .row a{
+		font-size: 16px;
+		padding: 10px;
+	}
+	.footer .row img{
+		margin-left: 50px;
+	}
+	.footer .row.rights{
+		font-size: 16px;
+	}
+	
+	
+	.process .img,
+	.process .last-img{
+		width: 100%;
+		height: 100%;
+		min-height: 250px;
+	}
+
+	.page .row div.myCard{
+		width: 90%;
+		margin-right: 5%;
+		margin-left: 5%;
+		margin-bottom: 25px;
+	}
+
+	.boxDetails .bx-wrapper{
+		min-height: unset;
+	}
+	.boxDetails .row .col-md-6{
+		padding: 20px;
+		padding-bottom: 0;
+	}
+	.gift{
+		width: 115px !important;
+		font-size: 16px !important;
+	}
+	.boxDetails .row:last-of-type .bx-wrapper{
+		width: 90%;
+		margin-right: 5%;
+		margin-left: 5%;
+	}
+	.boxDetails .slider2 .lest:nth-child(even),
+	.boxDetails .slider2 .lest:nth-child(odd){
+		width: auto !important;
+		margin-left: 0 !important;
+		margin-right: 25px !important;
+	}
+	.boxDetails .row:last-of-type .bx-wrapper .bx-controls-direction a.bx-prev,
+	.boxDetails .row:last-of-type .bx-wrapper .bx-controls-direction a.bx-next{
+		top: 100px !important;
+	}
+	
+	.giftCard .row div.col-md-6{
+		padding: 20px;
+		padding-top: 0;
+	}
+
+	.page .row .faq-element{
+		padding: 0 15px;
+		margin-bottom: 0;
+	}
+	.faq-element span.first{
+		text-align: initial;
+		width: 80%;
+	}
+	.faq-element span.last{
+		width: 24px;
+		height: 24px;
+		font-size: 13px;
+		padding-top: 3px;
+		margin-top: 5px;
+	}
+
+	.page .row div.cards{
+		width: 150px;
+		height: 150px;
+		padding-top: 35px;
+	}
+	.page p{
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+
+	.page .header-buttons{
+		margin-top: 10px;
+		margin-bottom: 30px;
+	}
+	.page .select2-container{
+		width: 80% !important;
+		margin-bottom: 40px;
+	}
+	.rush{
+		padding-top: 50px !important;
+	}
+
+	.contact{
+		margin-bottom: 50px;
+	}
+	.page .row div.contact-info{
+		padding: 15px;
+		padding-top: 0;
+	}
+	form{
+		width: 100%;
+	}
+	.form{
+		padding: 10px 0;
+	}
+	.form .col-xs-12:not(.last-x){
+		margin-bottom: 30px;
+	}
+	.form .select2-container{
+		width: 100% !important;
+		margin-bottom: 0;
+	}
+	.select2-container--default .select2-selection--multiple {
+		height: auto;
+	}
+	.select2-container--default .select2-selection--multiple .select2-selection__choice{
+		margin-right: 5px;
+    	margin-bottom: 5px;
+	}
+	.container .interior p.small-p{
+		font-size: 15px;
+		margin-bottom: 0;
+	}
+
+	.info .row,
+	.shipping .row,
+	.payment .row{
+		margin: 0;
+	}
+	.page p.head-p span{
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+	.info.page .header-buttons,{
+		margin-bottom: 10px;
+	}
+	.info.page .row div.details{
+		padding: 15px;
+	}
+	input,textarea{
+		color: #252525;
+		font-size: 16px;
+	}
+	.icheckbox_square{
+		display: inline-block;
+		float: left;
+	}
+	.form .icheck-info{
+		display: inline-block;
+		float: left;
+		width: 80%;
+		font-size: 16px;
+	}
+	.page .row div.payment-card{
+		margin-top: 50px;
+		padding: 15px;
+	}
+	.info.page .row.text-left .form{
+		padding: 20px 10px;
+	}
+	div.payment-card img{
+		max-width: 100%;
+		max-height: 200px;
+		width: 100%;
+	}
+	div.payment-card .col-md-7{
+		padding: 0;
+	}
+	div.payment-card .header-buttons{
+		margin-top: 30px;
+	}
+	.info.page .row .form .col-xs-12{
+		padding: 0;
+	}
+	.info .header-buttons{
+		margin-bottom: 0;
+	}
+	.info .header-buttons img{
+		width: 100%;
+	}
+
+	.shipping.page .header-buttons.pull-right,
+	.payment.page .header-buttons.pull-right{
+		font-size: 16px;
+		padding: 10px 30px;
+		margin-bottom: 10px;
+	}
+	.shipping.page p.title,
+	.payment.page p.title{
+		margin-bottom: 10px;
+		margin-top: 20px;
+		width: auto;
+	}
+	span.method,
+	span.price{
+		font-size: 17px;
+	}
+	span.duration{
+		font-size: 14px;
+	}
+	.shipping.page .row div.details,
+	.payment.page .row div.details{
+		padding: 15px;
+		margin-bottom: 30px;
+	}
+	.shipping.page .back,
+	.payment.page .back{
+		display: block;
+		width: 260px;
+		margin: auto;
+	    margin-top: 50px;
+	    margin-bottom: 15px;
+	    float: none;
+	}
+	.shipping.page a.header-buttons.last,
+	.payment.page a.header-buttons.last{
+		width: 260px;
+		display: block;
+		margin: auto;
+		float: unset !important;
+		clear: both;
+		margin-top: 15px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.payment .row .details.menu .data-div,
+	.payment.page .row.text-left .forms{
+		padding: 20px 0;
+	}
+	.last-spans,
+	.last-text span{
+		font-size: 16px;
+		display: inline-block;
+	}
+	.last-save{
+		width: 80%;
+		float: left;
+		margin-bottom: 30px;
+	}
+	.payment .payment-card{
+		margin-bottom: 40px;
+	}
+	.payment.page .select2-container{
+		width: 100% !important;
+	}
+
+	.uploadPage .row{
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.uploadPage .myFile{
+		width: 100%;
+		display: inline-block;
+	}
+
+}

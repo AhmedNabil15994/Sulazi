@@ -11,7 +11,7 @@
 
 @section('content')
 
-	<div class="col-xs-12 col-md-12 second-section page">
+	<div class="col-xs-12 col-md-12 second-section page boxDetails">
 		<div class="container">
 			<div class="interior roomlift text-center">
 				<div class="row">

@@ -10,7 +10,7 @@
 @section('cart', URL::to('/assets/images/cart-icon2.png'))
 
 @section('content')
-	<div class="col-xs-12 col-md-6 col-md-offset-3 second-section page">
+	<div class="col-xs-12 col-md-6 col-md-offset-3 second-section uploadPage page">
 		<div class="container">
 			<div class="interior roomlift text-center">
 				<h1>Upload Your Files </h1>

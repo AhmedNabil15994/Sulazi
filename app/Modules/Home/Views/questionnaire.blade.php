@@ -29,7 +29,7 @@
 						<span class="head-span">Address</span>
 						<input type="text" name="address" placeholder="Maadi - Cairo">
 					</div>
-					<div class="col-xs-12 col-md-6">
+					<div class="col-xs-12 col-md-6 last-x">
 						<span class="head-span">Email Address</span>
 						<input type="email" name="email" placeholder="Example147@gmail.com">
 					</div>
@@ -39,7 +39,7 @@
 
 				<p class="head-p">Family Info</p>
 				<div class="form">
-					<div class="col-xs-12 col-md-6">
+					<div class="col-xs-12 col-md-6 last-x">
 						<span class="head-span">If You Have Children, How Many And What Are Their Ages?</span>
 						<textarea name="family" placeholder="2 &#10;First 8 Years Old&#10;Second 5 Years Old"></textarea>
 					</div>
@@ -56,7 +56,7 @@
 						<span class="head-span">How Many People Do You Want To Be Able To Accommodate In This Space At A Maximum?</span>
 						<input type="text" name="goal2" placeholder="2">
 					</div>
-					<div class="col-xs-12 col-md-6">
+					<div class="col-xs-12 col-md-6 last-x">
 						<span class="head-span">What Is Your Overall Budget?</span>
 						<select name="goal3" class="select2">
 							<option value="1">Low</option>
@@ -94,7 +94,7 @@
 						<span class="head-span">What Color(s) And / Or Design Elements Do You Dislike, If Any?</span>
 						<input type="text" name="style3" placeholder="Blue">
 					</div>
-					<div class="col-xs-12 col-md-6">
+					<div class="col-xs-12 col-md-6 last-x">
 						<span class="head-span">Does Your Space Require Lamps For Light?</span>
 						<select name="style4" class="select2">
 							<option value="1">Yes</option>
@@ -106,7 +106,7 @@
 
 				<p class="head-p">Window Treatments</p>
 				<div class="form">
-					<div class="col-xs-12 col-md-6">
+					<div class="col-xs-12 col-md-6 last-x">
 						<span class="head-span">Do You Want/Need New Window/French Door Treatments?</span>
 						<select name="treatments" class="select2">
 							<option value="1">Yes</option>
@@ -118,7 +118,7 @@
 
 				<p class="head-p">Measurements</p>
 				<div class="form">
-					<div class="col-xs-12 col-md-6">
+					<div class="col-xs-12 col-md-6 last-x">
 						<span class="head-span">What Is The Height From The Ceiling To Floor?</span>
 						<input type="text" name="measurements" placeholder="150 cm">
 					</div>
