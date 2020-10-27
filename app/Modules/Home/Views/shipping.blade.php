@@ -107,7 +107,7 @@
 					</div>
 					<div class="clearfix"></div>
 					<div class="row">
-						<div class="col-xs-12 col-md-5">
+						<div class="col-xs-12 col-md-5 actions">
 							<a href="{{ URL::to('/info') }}" class="back"><i class="fa fa-angle-left"></i> Back To Information</a>
 							<a href="{{ URL::to('/payment') }}" class="header-buttons pull-right last">Continue To Payment</a>
 						</div>		

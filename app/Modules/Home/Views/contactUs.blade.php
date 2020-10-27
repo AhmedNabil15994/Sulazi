@@ -16,19 +16,19 @@
 			<div class="interior roomlift text-center">
 				<h1>Contact Information</h1>
 				<div class="row contact">
-					<div class="col-xs-12 col-md-4 contact-info">
+					<div class="col-xs-12 col-sm-4 col-md-4 contact-info">
 						<div class="contact-data">
 							<span>Phone Number</span>
 							<span>+966 145 8575 123</span>
 						</div>
 					</div>
-					<div class="col-xs-12 col-md-4 contact-info">
+					<div class="col-xs-12 col-sm-4 col-md-4 contact-info">
 						<div class="contact-data">
 							<span>Email Address</span>
 							<span>Example65@gmail.com</span>
 						</div>
 					</div>
-					<div class="col-xs-12 col-md-4 contact-info">
+					<div class="col-xs-12 col-sm-4 col-md-4 contact-info">
 						<div class="contact-data">
 							<span>Office Location</span>
 							<span>El Dammam - KSA</span>

@@ -102,7 +102,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior images-section text-center">
-					<div class="col-md-3"></div>
+					<div class="col-md-3 hidden-sm"></div>
 					<div class="col-xs-12 col-sm-6 col-md-3">
 						<img src="{{ URL::to('/assets/images/initial.png') }}" alt="initial">
 						<p>2 Initial Concepts</p>
@@ -115,8 +115,8 @@
 						<img src="{{ URL::to('/assets/images/final-design.png') }}" alt="final-design">
 						<p>Final Design</p>
 					</div>
-					<div class="clearfix"></div>
-					<div class="col-md-3"></div>
+					<div class="clearfix hidden-sm"></div>
+					<div class="col-md-3 hidden-sm"></div>
 					<div class="col-xs-12 col-sm-6 col-md-3">
 						<img src="{{ URL::to('/assets/images/floor-plan.png') }}" alt="floor-plan">
 						<p>Floor Plan & Setup Instructions</p>

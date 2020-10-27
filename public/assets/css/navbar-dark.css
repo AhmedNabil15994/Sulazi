@@ -79,6 +79,9 @@ nav.navbar{
     right: 9px;
     border: 1px solid #252525;
 }
+.navbar-brand img{
+	height: 111px;
+}
 @media(max-width: 767px){
 	.navbar-default .navbar-nav{
 		background: #252525;

@@ -10,6 +10,9 @@ nav.navbar-default{
 	font-size: 20px;
 	padding: 40px 10px;
 }
+.navbar-brand img{
+	height: 161px;
+}
 .navbar-default .navbar-nav>li>a{
 	color: #252525;
 }

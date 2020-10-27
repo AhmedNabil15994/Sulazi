@@ -102,6 +102,9 @@
 	margin-top: 40px; 
 	margin-bottom: 40px; 
 }
+.fixed-height{
+	height: 110px !important;
+}
 .container .interior.roomlift .card p{
 	font-family: Quicksand;
 	font-size: 22px;
@@ -338,4 +341,17 @@
 	margin-left: 15px;
 	margin-bottom: 40px;
 	cursor: pointer;
+}
+.transparent-color{
+	background-color: transparent;
+}
+.transparent-color .nav li a{
+	color: #252525;
+}
+
+.back-color{
+	background-color: rgba(37, 37, 37,.8) !important;
+}
+.back-color .nav li a:not(.my-btn){
+	color: #f6f6f6;
 }

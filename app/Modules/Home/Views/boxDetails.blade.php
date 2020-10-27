@@ -46,12 +46,12 @@
 					<div class="slider2">
 					    <div class="lest">
 					    	<img src="{{ asset("/assets/images/details1.png") }}" alt="follow">
-					    	<p>Accessorizing</p>
+					    	<p class="lest-p">Accessorizing</p>
 					    	<p>700 RS</p>
 					    </div>
 				      	<div class="lest">
 				      		<img src="{{ asset("/assets/images/details1.png") }}" alt="follow">
-				      		<p>3 Rooms & 2 Designs</p>
+				      		<p class="lest-p">3 Rooms & 2 Designs</p>
 					    	<p>3000 RS</p>
 				      	</div>
 					</div>

@@ -16,7 +16,7 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="{{ URL::to('/') }}">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="{{ URL::to('/') }}">Home <span class="sr-only">(current)</span></a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
             <ul class="dropdown-menu">
@@ -33,7 +33,7 @@
             </ul>
         </li>
         <li><a href="{{ URL::to('/faqs') }}">Faq</a></li>
-        <li><a class="my-btn" href="{{ URL::to('/getStarted') }}">Get Started</a></li>
+        <li class="btr"><a class="my-btn" href="{{ URL::to('/getStarted') }}">Get Started</a></li>
         <li>
           <a class="@yield('has-cart') img-anc" href="#">
             <img src="@yield('cart')" alt="">

@@ -35,8 +35,6 @@
 						<img src="{{ URL::to('/assets/images/follow2.png') }}" alt="icon">
 						<p>Website Name</p>
 					</div>
-				</div>
-				<div class="row">
 					<div class="col-xs-12 myCard">
 						<img src="{{ URL::to('/assets/images/follow3.png') }}" alt="icon">
 						<p>Website Name</p>

@@ -27,13 +27,13 @@
 						<p class="title">Express Check Out</p>
 						<div class="clearfix"></div>
 						<div class="row buttons">
-							<div class="col-xs-12 col-md-4">
+							<div class="col-xs-12 col-sm-4 col-md-4">
 								<button class="header-buttons"><img src="{{ URL::to('/assets/images/shop-pay.png') }}" alt="icon"></button>
 							</div>
-							<div class="col-xs-12 col-md-4">
+							<div class="col-xs-12 col-sm-4 col-md-4">
 								<button class="header-buttons"><img src="{{ URL::to('/assets/images/g-pay.png') }}" alt="icon"></button>
 							</div>
-							<div class="col-xs-12 col-md-4">
+							<div class="col-xs-12 col-sm-4 col-md-4">
 								<button class="header-buttons"><img src="{{ URL::to('/assets/images/paypal.png') }}" alt="icon"></button>
 							</div>
 						</div>
