@@ -131,7 +131,7 @@ nav.navbar-default{
 		background-color: #252525
 	}
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a{
-		color: #f6f6f6;
+		color: #252525;
 	}
 	.has-cart .cart-dot{
     	left: 50px;
