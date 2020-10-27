@@ -41,5 +41,5 @@
 @endsection
 
 @section('scripts')
-<script src="{{ URL::to('/assets/js/gitcard.js') }}"></script>
+<script src="{{ URL::to('/assets/js/giftcard.js') }}"></script>
 @endsection

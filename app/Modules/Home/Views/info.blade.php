@@ -75,7 +75,7 @@
 							<div class="row text-left">
 								<span class="head-span apply">Apply Code</span>
 								<input type="text" class="reverse" name="apply_code" value="D7488a">
-								<a class="header-buttons">Apply</a>
+								<a class="header-buttons apply-btn">Apply</a>
 								<div class="col-xs-12">
 									<hr>
 								</div>

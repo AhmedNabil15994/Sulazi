@@ -1376,5 +1376,356 @@
 	}
 }
 @media(min-width: 1200px ) and ( max-width: 1919px){
+	body,html{
+		/*overflow-x: hidden;*/
+	}
+	img.fixed-height{
+		height: 146px !important;
+	}
+	.row{
+		margin: 0;
+	}
+	.cart-aside{
+		overflow-y: scroll;
+		padding-right: 40px;
+	}
+	
+	.navbar-nav{
+		padding-top: 10px;
+	}
+	
+	.nav>li{
+		padding: 40px 0;
+		font-size: 20px;
+	}
+	.my-btn{
+		font-size: 20px;
+	}
+	a.navbar-brand{
+		padding-top: 2px;
+	}
+	.navbar-brand>img{
+		height: 135px;
+	}
 
+	#first .swiper-slide{
+		background-size: 100% 100%;
+    	background-repeat: no-repeat;
+	}
+	.data{
+		width: 100%;
+		top: 40%;
+	}
+	.data h1{
+		font-size: 40px;
+	}
+	.data button{
+		width: 250px;
+		height: 60px;
+		font-size: 26px;
+	}
+	.container .interior.roomlift .card p{
+		font-size: 19px;
+	}
+	.container .interior.images-section{
+		padding-top: 100px;
+	}
+	.container .interior.images-section img,
+	.container .interior.siosi-image .image-holder img{
+		width: 100%;
+	}
+	.container .interior.box-section .header-button.reverse,
+	.container .interior.siosi .header-button.reverse{
+		margin-bottom: 40px;
+	}
+	.container .interior.siosi-image .image-holder{
+		margin-left: unset;
+		max-width: unset;
+		max-height: unset;
+		width: 100%:
+		height: 100%;
+	}
+	.second-section.images{
+		max-height: 600px;
+	}
+	.dark-section.arts{
+		padding-top: 50px;
+	}
+	.arts .container .interior.siosi.first{
+		padding-top: 200px;
+	}
+	.footer .row a{
+		font-size: 25px;
+	}
+	.footer .row.rights{
+		font-size: 22px;
+		margin-bottom: 40px;
+	}
+
+	.process .img,
+	.process .last-img{
+		width: 100%;
+		height: 100%;
+		min-height: 250px;
+	}
+	.page .interior .image-holder img{
+		width: 100%;
+	}
+	.process h1{
+		font-size: 36px;
+	}
+	.page p{
+		font-size: 22px;
+	}
+	.col-md-3.hidden-sm{
+		display: none;
+	}
+	.page .container .interior.images-section .col-md-3{
+		width: 30%;
+		margin-left: 1.5%;
+		margin-right: 1.5%;
+	}
+	.page .images-section .col-xs-12 p{
+		font-size: 18px;
+	}
+	.page .row div.myCard{
+		padding: 30px 15px;
+		min-height: 300px;
+		padding-bottom: 0;
+	}
+	.myCard h1{
+		font-size: 36px;
+	}
+	.myCard p{
+		font-size: 20px;
+	}
+	.page .myCard .header-buttons{
+		padding: 5px 20px;
+		position: absolute;
+	    width: 80%;
+	    left: 10%;
+	    bottom: 30px;
+	}
+	.page .row .box{
+		margin-bottom: 25px;
+	}
+	.gift{
+		width: 115px !important;
+		font-size: 16px !important;
+	}
+	.page .col-md-6 p{
+		font-size: 18px;
+	}
+	.page.col-md-offset-2.col-md-8{
+		width: 80%;
+		margin-left: 10%;
+	}
+	.row.contact{
+		margin-bottom: 100px;
+	}
+	.page .row div.contact-info .contact-data{
+		padding: 15px 10px;
+	}
+	.contact-info span{
+		font-size: 16px;
+	}
+	.contact-info span:last-of-type{
+		font-weight: bold;
+	}
+	.page form{
+		width: 70%;
+	}
+	.page.press .row div.myCard{
+		padding: 30px 0;
+	}
+	.page .row div.cards{
+		width: 150px;
+		height: 150px;
+		padding-top: 35px;
+	}
+	.form{
+		padding: 10px 0;
+	}
+	.form .col-xs-12:not(.last-x){
+		margin-bottom: 30px;
+	}
+	.form .select2-container{
+		width: 100% !important;
+		margin-bottom: 0;
+	}
+	.select2-container--default .select2-selection--multiple {
+		height: auto;
+	}
+	.select2-container--default .select2-selection--multiple .select2-selection__choice{
+		margin-right: 5px;
+    	margin-bottom: 5px;
+	}
+	.container .interior p.small-p{
+		font-size: 15px;
+		margin-bottom: 0;
+	}
+	.uploadPage .row{
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 50px;
+	}
+	.uploadPage .myFile{
+		display: inline-block;
+		width: 30%;
+		margin-right: 1.65%;
+		margin-left: 1.65%;
+	}
+	.uploadPage.col-md-offset-3{
+		margin-left: 10%;
+		width: 80%;
+	}
+
+	.info .row,
+	.shipping .row,
+	.payment .row{
+		margin: 0;
+	}
+	.info .col-xs-12.col-md-2,
+	.shipping .col-xs-12.col-md-2,
+	.payment .col-xs-12.col-md-2{
+		display: none;
+	}
+	.info .col-xs-12.col-md-5,
+	.shipping .col-xs-12.col-md-5,
+	.payment .col-xs-12.col-md-5{
+		width: 50%;
+	}
+	.info .col-xs-12.col-md-5:first-of-type,
+	.shipping .col-xs-12.col-md-5:first-of-type,
+	.payment .col-xs-12.col-md-5:first-of-type{
+		padding: 0 15px;
+	}
+	.shipping .col-xs-12.col-md-5.actions{
+		width: 100%;
+	}
+	
+	.page p.head-p span{
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+	.info.page .header-buttons{
+		margin-bottom: 10px;
+	}
+	.info.page .header-buttons:not(.last):not(.apply-btn){
+		width: 95%;
+	}
+	.info.page .row div.details{
+		padding: 15px;
+	}
+	input,textarea{
+		color: #252525;
+		font-size: 20px;
+	}
+	.icheckbox_square{
+		display: inline-block;
+		float: left;
+	}
+	.form .icheck-info{
+		display: inline-block;
+		float: left;
+		width: 80%;
+		font-size: 16px;
+	}
+	.page .row div.payment-card{
+		margin-top: 50px;
+		padding: 15px;
+	}
+	.info.page .row.text-left .form{
+		padding: 20px 10px;
+	}
+	div.payment-card img{
+		max-width: 100%;
+		max-height: 200px;
+		width: 100%;
+	}
+	div.payment-card .col-md-7,
+	div.payment-card .col-md-2{
+		padding: 0 5px;
+		margin-top: 0;
+	}
+	div.payment-card .header-buttons{
+		margin-top: 30px;
+	}
+	.info .header-buttons{
+		margin-bottom: 0;
+	}
+	.info .header-buttons img{
+		width: 100%;
+	}
+
+	.shipping.page .header-buttons.pull-right,
+	.payment.page .header-buttons.pull-right{
+		font-size: 20px;
+		padding: 10px 30px;
+		margin-bottom: 10px;
+	}
+	.shipping.page p.title,
+	.payment.page p.title{
+		margin-bottom: 10px;
+		margin-top: 20px;
+		width: auto;
+	}
+	span.method,
+	span.price{
+		font-size: 17px;
+	}
+	span.duration{
+		font-size: 14px;
+	}
+	.shipping.page .row div.details,
+	.payment.page .row div.details{
+		padding: 15px;
+		margin-bottom: 30px;
+	}
+	.shipping.page .back,
+	.payment.page .back{
+		display: inline-block;
+		width: 260px;
+		margin: auto;
+	    margin-top: 50px;
+	    margin-bottom: 15px;
+	    float: left;
+	}
+	.shipping.page a.header-buttons.last,
+	.payment.page a.header-buttons.last{
+		width: 260px;
+		display: inline-block;
+		margin: auto;
+		float: right;
+		clear: both;
+		margin-top:-50px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.payment .row .details.menu .data-div,
+	.payment.page .row.text-left .forms{
+		padding: 20px 0;
+	}
+	.last-spans,
+	.last-text span{
+		font-size: 20px;
+		display: inline-block;
+	}
+	.last-save{
+		width: 80%;
+		float: left;
+		margin-bottom: 30px;
+	}
+	.payment .payment-card{
+		margin-bottom: 40px;
+	}
+	.payment.page .select2-container{
+		width: 100% !important;
+	}
+	.payment .select2-container,
+	.shipping .select2-container,
+	.info .select2-container{
+		margin-bottom: 0;
+	}
 }

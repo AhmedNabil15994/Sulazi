@@ -211,7 +211,7 @@
     border: 2px solid #eec946;
     max-width: 704px;
     max-height: 454px;
-    margin-left: calc(100% - 704px);
+    margin-left: 0;
 }
 .arts .container .interior.siosi-image.second{
 	padding-top: 0;

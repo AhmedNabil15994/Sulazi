@@ -10,7 +10,7 @@
 @section('cart', URL::to('/assets/images/cart-icon2.png'))
 
 @section('content')
-	<div class="col-xs-12 col-md-12 second-section page">
+	<div class="col-xs-12 col-md-12 second-section page press">
 		<div class="container">
 			<div class="interior roomlift text-center">
 				<h1>Press </h1>

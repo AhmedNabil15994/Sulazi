@@ -22,7 +22,7 @@
 						</div>
 						<p>House</p>
 					</div>
-					<div class="col-xs-12 col-md-2 col-sm-6 text-center  active">
+					<div class="col-xs-12 col-md-2 col-sm-6 text-center active">
 						<div class="cards">
 							<img src="{{ URL::to('/assets/images/townhouse.png') }}" alt="icon">							
 						</div>
