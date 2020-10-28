@@ -1417,7 +1417,7 @@
 		top: 40%;
 	}
 	.data h1{
-		font-size: 40px;
+		font-size: 36px;
 	}
 	.data button{
 		width: 250px;
@@ -1438,6 +1438,22 @@
 	.container .interior.siosi .header-button.reverse{
 		margin-bottom: 40px;
 	}
+	.home .slider2{
+		width: 100% !important;
+	}
+	.home .lest2{
+		/*width: 490px !important;*/
+		width: 47% !important;
+		margin-right: 1%;
+		margin-left: 1%;
+		display: inline-block;;
+	}
+	.home .bx-wrapper img{
+		width: 100% !important;
+	}
+	.container .interior.box-section p{
+		font-size: 24px;
+	}
 	.container .interior.siosi-image .image-holder{
 		margin-left: unset;
 		max-width: unset;
@@ -1455,10 +1471,10 @@
 		padding-top: 200px;
 	}
 	.footer .row a{
-		font-size: 25px;
+		font-size: 23px;
 	}
 	.footer .row.rights{
-		font-size: 22px;
+		font-size: 20px;
 		margin-bottom: 40px;
 	}
 

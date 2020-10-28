@@ -13,7 +13,7 @@
 	<div class="col-xs-12 col-md-6 col-md-offset-3 second-section page">
 		<div class="container">
 			<div class="interior roomlift text-center">
-				<h1>Sulazi </h1>
+				<h1><img src="{{ URL::to('/assets/images/logo2.png') }}" alt="icon"> </h1>
 				<p class="main">
 					I Studied interior design because I believe everyone deserve a better living through quality design.<br>
 				The internet is the new shopping center for people. Why not giving them the better quality spaces with simple steps.

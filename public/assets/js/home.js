@@ -43,10 +43,17 @@ $(function(){
     	pager: false,
       touchEnabled: false,
     });
+    var maxSlides,
+    width = $(window).width();
+    if (width < 1920 && width > 1200) {
+        maxSlides = 2;
+    } else {
+        maxSlides = 3;
+    }
 
     $('.slider2').bxSlider({
-    	minSlides: 1,
-    	maxSlides: 3,
+    	minSlides: maxSlides,
+    	maxSlides: maxSlides,
     	responsive:true,
     	pager: false,
       touchEnabled: false,

@@ -245,7 +245,7 @@
 		</div>
 	</div>
 
-	<div class="col-xs-12 main-section">
+	<div class="col-xs-12 main-section home">
 		<div class="container">
 			<div class="interior follow text-center">
 				<h1>Follow US @Sulazi</h1>
@@ -263,7 +263,7 @@
 		</div>
 	</div>
 
-	<div class="col-xs-12 second-section">
+	<div class="col-xs-12 second-section home">
 		<div class="container">
 			<div class="interior follow tips text-center">
 				<h1>Design Tips</h1>
