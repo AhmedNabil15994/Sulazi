@@ -1388,6 +1388,11 @@
 	.cart-aside{
 		overflow-y: scroll;
 		padding-right: 40px;
+		width: 550px;
+	}
+	.cart-aside .order-data span, 
+	.cart-aside .order-data p{
+		font-size: 20px;
 	}
 	
 	.navbar-nav{
@@ -1442,7 +1447,6 @@
 		width: 100% !important;
 	}
 	.home .lest2{
-		/*width: 490px !important;*/
 		width: 47% !important;
 		margin-right: 1%;
 		margin-left: 1%;
