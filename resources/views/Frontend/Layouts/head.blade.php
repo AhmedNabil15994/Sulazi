@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="{{asset('assets/production/css/toastr.min.css')}}"/>
 <link rel="stylesheet" href="{{ URL::to('/assets/plugins/swiper/swiper-bundle.min.css') }}">
 <link rel="stylesheet" href="{{ asset('assets/plugins/select2/select2.min.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <!-- iCheck -->
 <link href="{{ asset('assets/vendors/iCheck/skins/square/_all.css')}}" rel="stylesheet">
 <!-- css file -->

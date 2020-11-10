@@ -20,7 +20,8 @@
 	.cart-aside{
 		overflow-y: scroll;
 		width: 100%;
-		padding-right: 40px
+		padding-right: 40px;
+		right:-100%;
 	}
 	.cart-aside .col-xs-12.col-sm-12{
 		padding: 0;
@@ -421,6 +422,64 @@
 		display: inline-block;
 	}
 
+	.nav li.langs{
+		margin: 0;
+		padding: 20px;
+		overflow: auto;
+		width: 100%;
+		height: auto;
+		border-radius: unset;
+	}
+	.navbar-nav .open .dropdown-menu{
+		padding: 10px;
+    	margin-top: 10px;
+	}
+	.kt-header__topbar-item.kt-header__topbar-item--langs{
+		border-radius: unset;
+		overflow: auto;
+	}
+	.kt-header__topbar-icon.kt-header__topbar-icon--brand img{
+		width: 32px;
+		height: 32px;
+	}
+	.kt-header__topbar-wrapper{
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.dropdown-menu-fit{
+		background-color: #FFF !important;
+	}
+	.img-anc{
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.has-cart .cart-dot{
+		left: 30px;
+	}
+	html[dir="rtl"] .data{
+		right: 5%;
+	}
+	html[dir="rtl"] .navbar-header{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	html[dir="rtl"] .footer .row img{
+		margin-left: 25px !important;
+		margin-right: 25px !important;
+	}
+	html[dir="rtl"] .nav>li{
+		width: 100% !important;
+	}
+	html[dir="rtl"] .nav li.langs{
+		margin-top: 0;
+	}
+	html[dir="rtl"] .nav.navbar-nav{
+		padding: 0;
+	}
+	html[dir="rtl"] .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+		text-align: right;
+	}
 }
 
 @media(min-width: 768px ) and ( max-width: 991px){

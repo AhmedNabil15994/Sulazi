@@ -24,6 +24,11 @@ nav.navbar-default{
 .navbar-default .navbar-nav>.open>a:hover{
 	background: transparent;
 }
+.back-color.navbar-default .navbar-nav li.mainLi>a:hover,
+.back-color.navbar-default .navbar-nav li.mainLi>a:focus,
+.back-color.navbar-default .navbar-nav li.mainLi>a:active{
+	color: #f6f6f6;
+}
 .navbar-nav>li>.dropdown-menu{
 	background: #252525;
     font-size: 16px;

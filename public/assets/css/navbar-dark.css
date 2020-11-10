@@ -1,8 +1,10 @@
 nav.navbar{
-	background: #252525;
+	background: rgba(37, 37, 37,.8) !important;
 	border: 0;
 	width: 100%;
 	border-radius: 0;
+	position: fixed;
+	z-index: 99;
 }
 .nav>li{
 	font-size: 20px;

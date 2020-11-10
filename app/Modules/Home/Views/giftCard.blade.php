@@ -16,7 +16,7 @@
 			<div class="interior roomlift text-center">
 				<h1 class="first-head">GIFT CARD</h1>
 				<div class="row">
-					<div class="col-xs-12 col-md-6">
+					<div class="col-xs-12 col-md-6 animate__animated animate__slow animate__pulse">
 						<img src="{{ URL::to('/assets/images/gift-card.png') }}" alt="giftcard">
 					</div>
 					<div class="col-xs-12 col-md-6">

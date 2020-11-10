@@ -24,7 +24,7 @@ trait TraitsFunc
     }
 
     public function scopeNotDeleted($query){
-        return $query->whereRaw('(deleted_at IS NULL OR deleted_at="0000-00-00 00:00:00")');
+        return $query->whereRaw('(deleted_at IS NULL)');
     }
 
     public function scopeCreator($query){

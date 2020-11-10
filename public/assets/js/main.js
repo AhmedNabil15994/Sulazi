@@ -10,16 +10,31 @@ $(function(){
 			$('span.values').html(myValue - 1 );
 		}
 	});
-
+	var mainDir = $('html').attr('dir');
 	$('.img-anc.has-cart').on('click',function(){
-		$('.cart-aside').css('right','0');
+		if(mainDir == 'ltr'){
+			$('.cart-aside').css('right','0');
+		}else{
+			$('.cart-aside').css('left','0');
+		}
 		$('#overlay').toggle();
 	});
 
 	$('.cart-aside .fa-times').on('click',function(){
-		$('.cart-aside').css('right','-650px');
+		if(mainDir == 'ltr'){
+			$('.cart-aside').css('right','-650px');
+		}else{
+			$('.cart-aside').css('left','-650px');
+		}
 		$('#overlay').toggle();
 	});
 
-
+	$(document).on('scroll',function(){
+		$.each($('.animate__animated'),function(index,item){
+			if($(document).scrollTop() >= $(item).position().top){
+				$(item).addClass('animate__slow').toggleClass('animate__pulse');
+				console.log('addClassHere');
+			}
+		});
+	});
 });

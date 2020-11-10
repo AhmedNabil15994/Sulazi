@@ -16,14 +16,14 @@
 			<div class="interior roomlift text-center">
 				<div class="row">
 					<div class="col-xs-12 col-md-6">
-						<img class="main-image" src="{{ URL::to('/assets/images/details1.png') }}" alt="giftcard">
+						<img class="main-image animate__animated" src="{{ URL::to('/assets/images/details1.png') }}" alt="giftcard">
 						<div class="slider">
-						    <div class="lest"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
-					      	<div class="lest"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
-					      	<div class="lest"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
-					      	<div class="lest"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
-					      	<div class="lest"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
-					      	<div class="lest"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
+						    <div class="lest animate__animated"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
+					      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
+					      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
+					      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
+					      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
+					      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-6">
@@ -44,12 +44,12 @@
 				</div>
 				<div class="row">
 					<div class="slider2">
-					    <div class="lest">
+					    <div class="lest animate__animated">
 					    	<img src="{{ asset("/assets/images/details1.png") }}" alt="follow">
 					    	<p class="lest-p">Accessorizing</p>
 					    	<p>700 RS</p>
 					    </div>
-				      	<div class="lest">
+				      	<div class="lest animate__animated">
 				      		<img src="{{ asset("/assets/images/details1.png") }}" alt="follow">
 				      		<p class="lest-p">3 Rooms & 2 Designs</p>
 					    	<p>3000 RS</p>

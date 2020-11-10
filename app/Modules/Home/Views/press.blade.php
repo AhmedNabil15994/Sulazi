@@ -15,43 +15,43 @@
 			<div class="interior roomlift text-center">
 				<h1>Press </h1>
 				<div class="row">
-					<div class="col-xs-12 myCard">
+					<div class="col-xs-12 myCard animate__animated">
 						<img src="{{ URL::to('/assets/images/industrial.png') }}" alt="icon">
 						<p>Website Name</p>
 					</div>
-					<div class="col-xs-12 myCard">
+					<div class="col-xs-12 myCard animate__animated">
 						<img src="{{ URL::to('/assets/images/follow2.png') }}" alt="icon">
 						<p>Website Name</p>
 					</div>
-					<div class="col-xs-12 myCard">
+					<div class="col-xs-12 myCard animate__animated">
 						<img src="{{ URL::to('/assets/images/arts.png') }}" alt="icon">
 						<p>Website Name</p>
 					</div>
-					<div class="col-xs-12 myCard">
+					<div class="col-xs-12 myCard animate__animated">
 						<img src="{{ URL::to('/assets/images/tips2.png') }}" alt="icon">
 						<p>Website Name</p>
 					</div>
-					<div class="col-xs-12 myCard">
+					<div class="col-xs-12 myCard animate__animated">
 						<img src="{{ URL::to('/assets/images/follow2.png') }}" alt="icon">
 						<p>Website Name</p>
 					</div>
-					<div class="col-xs-12 myCard">
+					<div class="col-xs-12 myCard animate__animated">
 						<img src="{{ URL::to('/assets/images/follow3.png') }}" alt="icon">
 						<p>Website Name</p>
 					</div>
-					<div class="col-xs-12 myCard">
+					<div class="col-xs-12 myCard animate__animated">
 						<img src="{{ URL::to('/assets/images/tips3.png') }}" alt="icon">
 						<p>Website Name</p>
 					</div>
-					<div class="col-xs-12 myCard">
+					<div class="col-xs-12 myCard animate__animated">
 						<img src="{{ URL::to('/assets/images/box3.png') }}" alt="icon">
 						<p>Website Name</p>
 					</div>
-					<div class="col-xs-12 myCard">
+					<div class="col-xs-12 myCard animate__animated">
 						<img src="{{ URL::to('/assets/images/siosi.png') }}" alt="icon">
 						<p>Website Name</p>
 					</div>
-					<div class="col-xs-12 myCard">
+					<div class="col-xs-12 myCard animate__animated">
 						<img src="{{ URL::to('/assets/images/mid-country.png') }}" alt="icon">
 						<p>Website Name</p>
 					</div>

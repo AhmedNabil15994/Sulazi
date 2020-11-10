@@ -17,14 +17,14 @@
 				<h1>The Boxes </h1>
 				<p class="main">Select The Box And Number Of Room That Suit You From The Types Below.</p>
 				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-6 box">
+					<div class="col-xs-12 col-sm-6 col-md-6 box animate__animated">
 						<a href="{{ URL::to('/boxDetails') }}">
 							<img src="{{ URL::to('/assets/images/box1.png') }}" alt="box">
 						</a>
 						<p>1 Room & 2 Designs</p>
 						<p>1500 RS</p>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-6 box">
+					<div class="col-xs-12 col-sm-6 col-md-6 box animate__animated">
 						<a href="{{ URL::to('/boxDetails') }}">
 							<img src="{{ URL::to('/assets/images/box2.png') }}" alt="box">
 						</a>
@@ -33,14 +33,14 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-12 col-sm-6 col-md-6 box">
+					<div class="col-xs-12 col-sm-6 col-md-6 box animate__animated">
 						<a href="{{ URL::to('/boxDetails') }}">
 							<img src="{{ URL::to('/assets/images/box3.png') }}" alt="box">
 						</a>
 						<p>Accessorizing</p>
 						<p>700 RS</p>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-6 box">
+					<div class="col-xs-12 col-sm-6 col-md-6 box animate__animated">
 						<a href="{{ URL::to('/boxDetails') }}">
 							<img src="{{ URL::to('/assets/images/box4.png') }}" alt="box">
 						</a>

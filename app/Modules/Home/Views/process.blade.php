@@ -13,7 +13,7 @@
 	<div class="col-xs-12 col-md-12 second-section page process">
 		<div class="container">
 			<div class="interior roomlift text-center">
-				<img class="img" src="{{ URL::to('/assets/images/process.png') }}" alt="process">
+				<img class="img animate__animated animate__slow animate__pulse" src="{{ URL::to('/assets/images/process.png') }}" alt="process">
 				<h1>Our Process </h1>
 				<p>How The Process Of Sulazi Work?</p>
 				<p>We are an online interior design service that combine the knowledge and personalization you get from working with a real designer. You will see interior design interior ideas in your exact room, collaborate online with your designer, and shop your entire look</p>
@@ -26,7 +26,7 @@
 		<div class="container">
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior process text-left">
-					<div class="image-holder">
+					<div class="image-holder animate__animated">
 						<img src="{{ URL::to('/assets/images/process3.png') }}" alt="arts">
 					</div>
 				</div>
@@ -46,7 +46,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior process text-right">
-					<div class="image-holder">
+					<div class="image-holder animate__animated">
 						<img src="{{ URL::to('/assets/images/process3.png') }}" alt="arts">
 					</div>
 				</div>
@@ -54,7 +54,7 @@
 			<div class="clearfix"></div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior process text-left">
-					<div class="image-holder">
+					<div class="image-holder animate__animated">
 						<img src="{{ URL::to('/assets/images/process3.png') }}" alt="arts">
 					</div>
 				</div>
@@ -74,7 +74,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior process text-right">
-					<div class="image-holder">
+					<div class="image-holder animate__animated">
 						<img src="{{ URL::to('/assets/images/process3.png') }}" alt="arts">
 					</div>
 				</div>
@@ -82,7 +82,7 @@
 			<div class="clearfix"></div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior process text-left">
-					<div class="image-holder">
+					<div class="image-holder animate__animated">
 						<img src="{{ URL::to('/assets/images/process3.png') }}" alt="arts">
 					</div>
 				</div>
@@ -103,29 +103,29 @@
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior images-section text-center">
 					<div class="col-md-3 hidden-sm"></div>
-					<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="col-xs-12 col-sm-6 col-md-3 animate__animated">
 						<img src="{{ URL::to('/assets/images/initial.png') }}" alt="initial">
 						<p>2 Initial Concepts</p>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="col-xs-12 col-sm-6 col-md-3 animate__animated">
 						<img src="{{ URL::to('/assets/images/messages.png') }}" alt="messages">
 						<p>Message With Your Designer</p>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="col-xs-12 col-sm-6 col-md-3 animate__animated">
 						<img src="{{ URL::to('/assets/images/final-design.png') }}" alt="final-design">
 						<p>Final Design</p>
 					</div>
 					<div class="clearfix hidden-sm"></div>
 					<div class="col-md-3 hidden-sm"></div>
-					<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="col-xs-12 col-sm-6 col-md-3 animate__animated">
 						<img src="{{ URL::to('/assets/images/floor-plan.png') }}" alt="floor-plan">
 						<p>Floor Plan & Setup Instructions</p>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="col-xs-12 col-sm-6 col-md-3 animate__animated">
 						<img src="{{ URL::to('/assets/images/shopping-list.png') }}" alt="shopping-list">
 						<p>Shopping List</p>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-3">
+					<div class="col-xs-12 col-sm-6 col-md-3 animate__animated">
 						<img src="{{ URL::to('/assets/images/the-box.png') }}" alt="the-box">
 						<p>The Box</p>
 					</div>
@@ -134,7 +134,7 @@
 			<div class="col-xs-12 text-center">
 				<div class="interior process text-center">
 					<h1>7- Enjoy</h1>
-					<img class="last-img" src="{{ URL::to('/assets/images/process2.png') }}" alt="process">
+					<img class="last-img animate__animated" src="{{ URL::to('/assets/images/process2.png') }}" alt="process">
 				</div>
 			</div>
 			<div class="clearfix"></div>

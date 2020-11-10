@@ -13,7 +13,7 @@
 @section('content')
 	<div class="swiper-container backs" id="first">
 	    <div class="swiper-wrapper">
-	      	<div class="swiper-slide" style="background-image:  url('{{ asset("/assets/images/back1.png") }}'); ">
+	      	<div class="swiper-slide animate__animated animate__slow animate__fadeIn" style="background-image:  url('{{ asset("/assets/images/back1.png") }}'); ">
 	      		<div class="data text-left">
 					<h1>Sulazi provides <br> the interior design you imagine <br> (start your design)</h1>
 					<button class="header-button">find your style</button>
@@ -90,28 +90,28 @@
 		<div class="container">
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior images-section text-center">
-					<div class="col-xs-12 col-sm-6 col-md-4">
+					<div class="col-xs-12 col-sm-6 col-md-4 animate__animated">
 						<img src="{{ URL::to('/assets/images/initial.png') }}" alt="initial">
 						<p>2 Initial Concepts</p>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-4">
+					<div class="col-xs-12 col-sm-6 col-md-4 animate__animated">
 						<img src="{{ URL::to('/assets/images/messages.png') }}" alt="messages">
 						<p>Message With Your Designer</p>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-4">
+					<div class="col-xs-12 col-sm-6 col-md-4 animate__animated">
 						<img src="{{ URL::to('/assets/images/final-design.png') }}" alt="final-design">
 						<p>Final Design</p>
 					</div>
 					<div class="clearfix hidden-sm"></div>
-					<div class="col-xs-12 col-sm-6 col-md-4">
+					<div class="col-xs-12 col-sm-6 col-md-4 animate__animated">
 						<img src="{{ URL::to('/assets/images/floor-plan.png') }}" alt="floor-plan">
 						<p>Floor Plan & Setup Instructions</p>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-4">
+					<div class="col-xs-12 col-sm-6 col-md-4 animate__animated">
 						<img src="{{ URL::to('/assets/images/shopping-list.png') }}" alt="shopping-list">
 						<p>Shopping List</p>
 					</div>
-					<div class="col-xs-12 col-sm-6 col-md-4">
+					<div class="col-xs-12 col-sm-6 col-md-4 animate__animated">
 						<img src="{{ URL::to('/assets/images/the-box.png') }}" alt="the-box">
 						<p>The Box</p>
 					</div>
@@ -140,7 +140,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior siosi-image text-left">
-					<div class="image-holder">
+					<div class="image-holder animate__animated">
 						<img src="{{ URL::to('/assets/images/siosi.png') }}" alt="siosi">
 					</div>
 				</div>
@@ -152,7 +152,7 @@
 		<div class="container">
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior siosi-image first text-left">
-					<div class="image-holder">
+					<div class="image-holder animate__animated">
 						<img src="{{ URL::to('/assets/images/arts.png') }}" alt="arts">
 					</div>
 				</div>
@@ -175,7 +175,7 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior siosi-image second text-left">
-					<div class="image-holder">
+					<div class="image-holder animate__animated">
 						<img src="{{ URL::to('/assets/images/our-boxes.png') }}" alt="our-boxes">
 					</div>
 				</div>
@@ -189,13 +189,13 @@
 				<h1>Collections </h1>
 				<div class="row">
 					<div class="col-xs-12 col-md-6 col-sm-12">
-						<div class="collection" style="background-image: url('{{ asset("/assets/images/industrial.png") }}'); ">
+						<div class="collection animate__animated" style="background-image: url('{{ asset("/assets/images/industrial.png") }}'); ">
 							<div class="overlay"></div>
 							<p>Industrial</p>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-6 col-sm-12">
-						<div class="collection" style="background-image: url('{{ asset("/assets/images/minimal.png") }}'); ">
+						<div class="collection animate__animated" style="background-image: url('{{ asset("/assets/images/minimal.png") }}'); ">
 							<div class="overlay"></div>
 							<p>Minimalist</p>
 						</div>
@@ -203,25 +203,25 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-md-3 col-sm-6">
-						<div class="collection" style="background-image: url('{{ asset("/assets/images/modern.png") }}'); ">
+						<div class="collection animate__animated" style="background-image: url('{{ asset("/assets/images/modern.png") }}'); ">
 							<div class="overlay"></div>
 							<p>Modern</p>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-3 col-sm-6">
-						<div class="collection" style="background-image: url('{{ asset("/assets/images/traditional.png") }}'); ">
+						<div class="collection animate__animated" style="background-image: url('{{ asset("/assets/images/traditional.png") }}'); ">
 							<div class="overlay"></div>
 							<p>Traditional</p>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-3 col-sm-6">
-						<div class="collection" style="background-image: url('{{ asset("/assets/images/bohemian.png") }}'); ">
+						<div class="collection animate__animated" style="background-image: url('{{ asset("/assets/images/bohemian.png") }}'); ">
 							<div class="overlay"></div>
 							<p>Bohemian</p>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-3 col-sm-6">
-						<div class="collection" style="background-image: url('{{ asset("/assets/images/contemporary.png") }}'); ">
+						<div class="collection animate__animated" style="background-image: url('{{ asset("/assets/images/contemporary.png") }}'); ">
 							<div class="overlay"></div>
 							<p>Contemporary</p>
 						</div>
@@ -229,13 +229,13 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-md-3 col-sm-6">
-						<div class="collection" style="background-image: url('{{ asset("/assets/images/rustic.png") }}'); ">
+						<div class="collection animate__animated" style="background-image: url('{{ asset("/assets/images/rustic.png") }}'); ">
 							<div class="overlay"></div>
 							<p>Rustic</p>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-9 col-sm-6">
-						<div class="collection" style="background-image: url('{{ asset("/assets/images/mid-country.png") }}'); ">
+						<div class="collection animate__animated" style="background-image: url('{{ asset("/assets/images/mid-country.png") }}'); ">
 							<div class="overlay"></div>
 							<p>Mid Country Modern</p>
 						</div>
@@ -252,12 +252,12 @@
 				<p>Follow Our Work On Instagram Now <br> And Keep Up-To-Dated With Us!  </p>
 				<a href="#" class="header-button reverse">Follow Us</a>
 				<div class="slider">
-				    <div class="lest"><img src="{{ asset("/assets/images/follow1.png") }}" alt="follow"></div>
-			      	<div class="lest"><img src="{{ asset("/assets/images/follow2.png") }}" alt="follow"></div>
-			      	<div class="lest"><img src="{{ asset("/assets/images/follow3.png") }}" alt="follow"></div>
-			      	<div class="lest"><img src="{{ asset("/assets/images/follow4.png") }}" alt="follow"></div>
-			      	<div class="lest"><img src="{{ asset("/assets/images/follow3.png") }}" alt="follow"></div>
-			      	<div class="lest"><img src="{{ asset("/assets/images/follow4.png") }}" alt="follow"></div>
+				    <div class="lest animate__animated"><img src="{{ asset("/assets/images/follow1.png") }}" alt="follow"></div>
+			      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/follow2.png") }}" alt="follow"></div>
+			      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/follow3.png") }}" alt="follow"></div>
+			      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/follow4.png") }}" alt="follow"></div>
+			      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/follow3.png") }}" alt="follow"></div>
+			      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/follow4.png") }}" alt="follow"></div>
 				</div>
 			</div>
 		</div>
@@ -268,7 +268,7 @@
 			<div class="interior follow tips text-center">
 				<h1>Design Tips</h1>
 				<div class="slider2">
-				    <div class="lest2">
+				    <div class="lest2 animate__animated">
 				    	<img src="{{ asset("/assets/images/tips1.png") }}" alt="follow">
 				    	<div class="slider-data">
 				    		<p>NOV 26,2018</p>
@@ -276,7 +276,7 @@
 				    		<p>by Megan Hersch</p>
 				    	</div>
 				    </div>
-			      	<div class="lest2">
+			      	<div class="lest2 animate__animated">
 			      		<img src="{{ asset("/assets/images/tips2.png") }}" alt="follow">
 			      		<div class="slider-data">
 				    		<p>NOV 26,2018</p>
@@ -284,7 +284,7 @@
 				    		<p>by Megan Hersch</p>
 				    	</div>
 			      	</div>
-			      	<div class="lest2">
+			      	<div class="lest2 animate__animated">
 			      		<img src="{{ asset("/assets/images/tips3.png") }}" alt="follow">
 			      		<div class="slider-data">
 				    		<p>NOV 26,2018</p>
@@ -294,7 +294,7 @@
 			      	</div>
 				</div>
 				<h1>Brands Providing Exclusive <br> Sulazi Discounts</h1>
-				<div class="row row-images">
+				<div class="row row-images animate__animated">
 					<img src="{{ URL::to('/assets/images/belgacom.png') }}" alt="brand">
 					<img src="{{ URL::to('/assets/images/consulate.png') }}" alt="brand">
 					<img src="{{ URL::to('/assets/images/ebike.png') }}" alt="brand">
@@ -305,7 +305,7 @@
 					<img src="{{ URL::to('/assets/images/homebase.png') }}" alt="brand">
 					<img src="{{ URL::to('/assets/images/texas.png') }}" alt="brand">
 				</div>
-				<div class="row row-images">
+				<div class="row row-images animate__animated">
 					<img src="{{ URL::to('/assets/images/homebase.png') }}" alt="brand">
 					<img src="{{ URL::to('/assets/images/nike.png') }}" alt="brand">
 					<img src="{{ URL::to('/assets/images/texas.png') }}" alt="brand">

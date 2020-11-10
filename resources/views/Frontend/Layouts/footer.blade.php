@@ -37,6 +37,7 @@
 
 
 <script src="{{ URL::to('/assets/js/main.js') }}"></script>
+<script src="{{ asset('assets/components/multi-lang.js')}}"></script>
 
 @yield('scripts')
 @yield('scripts-2')
