@@ -33,7 +33,6 @@ $(function(){
 		$.each($('.animate__animated'),function(index,item){
 			if($(document).scrollTop() >= $(item).position().top){
 				$(item).addClass('animate__slow').toggleClass('animate__pulse');
-				console.log('addClassHere');
 			}
 		});
 	});

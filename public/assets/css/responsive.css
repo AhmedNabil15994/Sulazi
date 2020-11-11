@@ -34,8 +34,6 @@
 	.nav>li{
 		font-size: 18px;
 	}
-
-
 	.col-xs-12 .container,
 	.col-xs-12 .container>.col-xs-12{
 		padding: 0;
@@ -63,7 +61,6 @@
 		font-size: 40px;
 		margin-bottom: 50px;
 	} 
-
 	.container .interior.roomlift .card{
 		padding: 30px 15px;
 	}
@@ -79,11 +76,6 @@
 	.container .interior.box-section p{
 		font-size: 20px;
 	}
-
-	/*.reverse{
-		margin-bottom: 20px;
-		font-size: 22px !important;
-	}*/
 	.second-section.images{
 		max-height: 1000px;
 	}
@@ -95,7 +87,6 @@
 	    margin: 0;
 	    padding: 0; 
 	}
-
 	.dark-section{
 		padding-top: 100px;
 	}
@@ -103,8 +94,6 @@
 		padding-bottom: 0;
 		padding-top: 0;
 	}
-
-
 	.container .interior.siosi .header-button.reverse{
 		margin-bottom: 0;
 		margin-top: 20px;
@@ -113,11 +102,9 @@
 		width: 100% !important;
 		height: 100% !important;
 	}
-	
 	.arts{
 		max-height: 1800px;
 	}
-
 	.arts .container .interior.siosi.first{
 		padding-top: 75px;
 		padding-bottom: 0;
@@ -130,7 +117,6 @@
 		padding-top: 75px;
 		padding-bottom: 0;
 	}
-
 	.bx-wrapper{
 		width: 94%;
 		margin-left: 3%;
@@ -172,22 +158,18 @@
 	.footer .row.rights{
 		font-size: 16px;
 	}
-	
-	
 	.process .img,
 	.process .last-img{
 		width: 100%;
 		height: 100%;
 		min-height: 250px;
 	}
-
 	.page .row div.myCard{
 		width: 90%;
 		margin-right: 5%;
 		margin-left: 5%;
 		margin-bottom: 25px;
 	}
-
 	.boxDetails .bx-wrapper{
 		min-height: unset;
 	}
@@ -214,12 +196,10 @@
 	.boxDetails .row:last-of-type .bx-wrapper .bx-controls-direction a.bx-next{
 		top: 100px !important;
 	}
-	
 	.giftCard .row div.col-md-6{
 		padding: 20px;
 		padding-top: 0;
 	}
-
 	.page .row .faq-element{
 		padding: 0 15px;
 		margin-bottom: 0;
@@ -235,7 +215,6 @@
 		padding-top: 3px;
 		margin-top: 5px;
 	}
-
 	.page .row div.cards{
 		width: 150px;
 		height: 150px;
@@ -245,7 +224,6 @@
 		margin-top: 10px;
 		margin-bottom: 30px;
 	}
-
 	.page .header-buttons{
 		margin-top: 10px;
 		margin-bottom: 30px;
@@ -257,7 +235,6 @@
 	.rush{
 		padding-top: 50px !important;
 	}
-
 	.contact{
 		margin-bottom: 50px;
 	}
@@ -289,7 +266,6 @@
 		font-size: 15px;
 		margin-bottom: 0;
 	}
-
 	.info .row,
 	.shipping .row,
 	.payment .row{
@@ -346,7 +322,6 @@
 	.info .header-buttons img{
 		width: 100%;
 	}
-
 	.shipping.page .header-buttons.pull-right,
 	.payment.page .header-buttons.pull-right{
 		font-size: 16px;
@@ -456,6 +431,7 @@
 	.has-cart .cart-dot{
 		left: 30px;
 	}
+
 	html[dir="rtl"] .data{
 		right: 5%;
 	}
@@ -480,11 +456,36 @@
 	html[dir="rtl"] .navbar-default .navbar-nav .open .dropdown-menu>li>a{
 		text-align: right;
 	}
+	html[dir="rtl"] .col-md-offset-3{
+		margin-right: 0;	
+	}
+	html[dir="rtl"] .cart-aside{
+		right: auto;
+		left: -100%;
+	}
+	html[dir="rtl"] .navbar-toggle{
+		margin-right: 25px;
+	}
+	html[dir="rtl"] .col-md-offset-1{
+		margin-right: 0;
+	}
+	html[dir="ltr"] .cart-aside{
+		right: -100%;
+	}
 }
 
 @media(min-width: 768px ) and ( max-width: 991px){
 	.fixed-height{
-		height: 146px !important;
+		height: 136px !important;
+	}
+	html[dir="rtl"] .nav>li>a:not(.my-btn){
+		padding: 9px;	
+	}
+	html[dir="rtl"] .col-md-offset-3{
+		margin-right: 0;	
+	}
+	html[dir="rtl"] .col-md-offset-1{
+		margin-right: 0;
 	}
 	.container{
 		width: 100%;
@@ -597,6 +598,7 @@
 	.arts .container .interior.siosi-image{
 		padding-bottom: 0;
 		padding-top: 0;
+	    margin-top: 100px;
 	}
 
 
@@ -932,6 +934,9 @@
 @media(min-width: 992px ) and ( max-width: 1199px){
 	img.fixed-height{
 		height: 146px !important;
+	}
+	html[dir="rtl"] .interior.siosi.text-left{
+		padding-left: 20px;
 	}
 	.row{
 		margin: 0;
