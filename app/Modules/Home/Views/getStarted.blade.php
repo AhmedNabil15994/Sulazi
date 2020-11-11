@@ -1,6 +1,6 @@
 @extends('Frontend.Layouts.master')
 
-@section('title','Get Started')
+@section('title',trans('main.link5'))
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
@@ -13,10 +13,10 @@
 	<div class="col-xs-12 col-md-8 col-md-offset-2 second-section page">
 		<div class="container">
 			<div class="interior roomlift text-center">
-				<h1>Let's Show You Our Best Designers. </h1>
-				<p>We Are Going To Ask You A Few Questions To Find Just The Right Fit.</p>
+				<h1>{{ trans('main.lets_h') }}</h1>
+				<p>{{ trans('main.lets_p') }}</p>
 				<div class="row">
-					<a href="{{ URL::to('/first') }}" class="header-buttons">Let's Get Started</a>
+					<a href="{{ URL::to('/first') }}" class="header-buttons">{{ trans('main.lets_button') }}</a>
 				</div>
 			</div>
 		</div>

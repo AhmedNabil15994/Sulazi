@@ -1,6 +1,6 @@
 @extends('Frontend.Layouts.master')
 
-@section('title','Press')
+@section('title',trans('main.press'))
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
@@ -13,7 +13,7 @@
 	<div class="col-xs-12 col-md-12 second-section page press">
 		<div class="container">
 			<div class="interior roomlift text-center">
-				<h1>Press </h1>
+				<h1>{{ trans('main.press') }} </h1>
 				<div class="row">
 					<div class="col-xs-12 myCard animate__animated">
 						<img src="{{ URL::to('/assets/images/industrial.png') }}" alt="icon">

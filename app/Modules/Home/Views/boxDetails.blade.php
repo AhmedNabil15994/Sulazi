@@ -1,6 +1,6 @@
 @extends('Frontend.Layouts.master')
 
-@section('title','Box Details')
+@section('title',trans('main.box_det'))
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
@@ -27,32 +27,32 @@
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-6">
-						<p>1 Room & 2 Designs</p>
-						<p class="value">1500 SR</p>
-						<p>Quantity</p>
-						<span class="gift">1 room</span>
-						<span class="gift active">2 room</span>
+						<p>{{ trans('main.boxes_box1') }}</p>
+						<p class="value">1500 {{ trans('main.sar') }}</p>
+						<p>{{ trans('main.quantity') }}</p>
+						<span class="gift">1 {{ trans('main.room') }}</span>
+						<span class="gift active">2 {{ trans('main.room') }}</span>
 						<div class="clearfix"></div>
-						<button class="header-buttons">Add To Cart</button>
-						<button class="header-buttons">Buy It Now</button>
-						<p>Each roomLift comes with two 15 minute phone or email consultations about your design.</p>
-						<p>Each roomLift box will provide 2 design options, including:</p>
-						<p>A scaled Floor Plan of your space, based on the dimensions and photos that you provided.</p>
-						<p>Paint chip and/or wallpaper samples.</p>
-						<p>roomLift Cards for each suggested item with specific information so that you can purchase it all yourself, directly from the retailer. No up-charges.roomLift 3 or more rooms and get a 20% discount on everything!</p>
+						<button class="header-buttons">{{ trans('main.add_to_cart') }}</button>
+						<button class="header-buttons">{{ trans('main.buy_it') }}</button>
+						<p>{{ trans('main.box_det_p1') }}</p>
+						<p>{{ trans('main.box_det_p2') }}</p>
+						<p>{{ trans('main.box_det_p3') }}</p>
+						<p>{{ trans('main.box_det_p4') }}</p>
+						<p>{{ trans('main.box_det_p5') }}</p>
 					</div>
 				</div>
 				<div class="row">
 					<div class="slider2">
 					    <div class="lest animate__animated">
 					    	<img src="{{ asset("/assets/images/details1.png") }}" alt="follow">
-					    	<p class="lest-p">Accessorizing</p>
-					    	<p>700 RS</p>
+					    	<p class="lest-p">{{ trans('main.boxes_box3') }}</p>
+					    	<p>700 {{ trans('main.boxes_ras') }}</p>
 					    </div>
 				      	<div class="lest animate__animated">
 				      		<img src="{{ asset("/assets/images/details1.png") }}" alt="follow">
-				      		<p class="lest-p">3 Rooms & 2 Designs</p>
-					    	<p>3000 RS</p>
+				      		<p class="lest-p">{{ trans('main.boxes_box4') }}</p>
+					    	<p>3000 {{ trans('main.boxes_ras') }}</p>
 				      	</div>
 					</div>
 				</div>

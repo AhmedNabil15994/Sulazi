@@ -1,6 +1,6 @@
 @extends('Frontend.Layouts.master')
 
-@section('title','Gift Card')
+@section('title',trans('main.gift_card'))
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
@@ -14,24 +14,24 @@
 	<div class="col-xs-12 col-md-12 second-section page giftCard">
 		<div class="container">
 			<div class="interior roomlift text-center">
-				<h1 class="first-head">GIFT CARD</h1>
+				<h1 class="first-head">{{ trans('main.gift_card') }}</h1>
 				<div class="row">
 					<div class="col-xs-12 col-md-6 animate__animated animate__slow animate__pulse">
 						<img src="{{ URL::to('/assets/images/gift-card.png') }}" alt="giftcard">
 					</div>
 					<div class="col-xs-12 col-md-6">
-						<p>You Can Send A Gift Card Through Us Now!</p>
-						<p class="value">250.00 SR</p>
-						<p>Size</p>
-						<span class="gift">50 SR</span>
-						<span class="gift">150 SR</span>
-						<span class="gift active">250 SR</span>
-						<span class="gift">500 SR</span>
-						<span class="gift">750 SR</span>
+						<p>{{ trans('main.gift_card_p') }}</p>
+						<p class="value">250.00 {{ trans('main.sar') }}</p>
+						<p>{{ trans('main.size') }}</p>
+						<span class="gift">50 {{ trans('main.sar') }}</span>
+						<span class="gift">150 {{ trans('main.sar') }}</span>
+						<span class="gift active">250 {{ trans('main.sar') }}</span>
+						<span class="gift">500 {{ trans('main.sar') }}</span>
+						<span class="gift">750 {{ trans('main.sar') }}</span>
 						<div class="clearfix"></div>
-						<button class="header-buttons">Add To Cart</button>
-						<button class="header-buttons">Buy It Now</button>
-						<p>* Please include the Name and Address of recipient in the ORDER NOTES in the shopping cart or it will default to the purchaser's address.</p>
+						<button class="header-buttons">{{ trans('main.add_to_cart') }}</button>
+						<button class="header-buttons">{{ trans('main.buy_it') }}</button>
+						<p>* {{ trans('main.giftNote') }}.</p>
 					</div>
 				</div>
 			</div>

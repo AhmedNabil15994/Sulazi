@@ -1,6 +1,6 @@
 @extends('Frontend.Layouts.master')
 
-@section('title','Third')
+@section('title',trans('main.fourth_page'))
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
@@ -13,13 +13,13 @@
 	<div class="col-xs-12 col-md-6 col-md-offset-3 second-section page">
 		<div class="container">
 			<div class="interior roomlift text-center">
-				<h1>Where's Home For You Right Now? </h1>
-				<p>Believe It Or Not, Different States Have Different Styles.</p>
+				<h1>{{ trans('main.fourth_page_h') }} </h1>
+				<p>{{ trans('main.fourth_page_p') }}</p>
 				<div class="row">
 					<select name="city_id" class="select2 my-select">
-						<option value="">Choose A City</option>
+						<option value="">{{ trans('main.choose_city') }}</option>
 					</select>
-					<a href="{{ URL::to('/fourth') }}" class="header-buttons">Continue</a>
+					<a href="{{ URL::to('/fourth') }}" class="header-buttons">{{ trans('main.continue') }}</a>
 				</div>
 			</div>
 		</div>

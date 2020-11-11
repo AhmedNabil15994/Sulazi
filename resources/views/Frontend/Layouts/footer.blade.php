@@ -9,16 +9,16 @@
 			<img src="{{ URL::to('/assets/images/twitter.png') }}" alt="icon">
 		</div>
 		<div class="row">
-			<a href="{{ URL::to('/info') }}">How It Works</a>
-			<a href="{{ URL::to('/prices') }}">Prices</a>
-			<a href="{{ URL::to('/press') }}">Press</a>
-			<a href="{{ URL::to('/giftCard') }}">Gift Card</a>
-			<a href="{{ URL::to('/contactUs') }}">Contact Us</a>
-			<a href="{{ URL::to('/faqs') }}">Faqs</a>
-			<a href="#">Terms & Conditions</a>
+			<a href="{{ URL::to('/info') }}">{{ trans('main.how_it') }}</a>
+			<a href="{{ URL::to('/prices') }}">{{ trans('main.prices') }}</a>
+			<a href="{{ URL::to('/press') }}">{{ trans('main.press') }}</a>
+			<a href="{{ URL::to('/giftCard') }}">{{ trans('main.gift_card') }}</a>
+			<a href="{{ URL::to('/contactUs') }}">{{ trans('main.contact_us') }}</a>
+			<a href="{{ URL::to('/faqs') }}">{{ trans('main.link4') }}</a>
+			<a href="#">{{ trans('main.terms') }}</a>
 		</div>
 		<div class="row rights">
-			All Copyrights Reserved {{ date('Y') }} @wesa.sa
+			{{ trans('main.rights') }} {{ date('Y') }} @wesa.sa
 		</div>
   	</div>
 </section>

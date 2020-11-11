@@ -1,6 +1,6 @@
 @extends('Frontend.Layouts.master')
 
-@section('title','Questionnaire')
+@section('title',trans('main.card1_button'))
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
@@ -13,118 +13,118 @@
 	<div class="col-xs-12 second-section page">
 		<div class="container">
 			<div class="interior roomlift text-center">
-				<h1>Questionnaire</h1>
+				<h1>{{ trans('main.card1_button') }}</h1>
 				
-				<p class="head-p">Contact Info</p>
+				<p class="head-p">{{ trans('main.quest_contact_info') }}</p>
 				<div class="form">
 					<div class="col-xs-12 col-md-6 mg-bt-30">
-						<span class="head-span">First Name</span>
+						<span class="head-span">{{ trans('main.f_name') }}</span>
 						<input type="text" name="f_name" placeholder="John">
 					</div>
 					<div class="col-xs-12 col-md-6 mg-bt-30">
-						<span class="head-span">Last Name</span>
+						<span class="head-span">{{ trans('main.l_name') }}</span>
 						<input type="text" name="l_name" placeholder="Doe">
 					</div>
 					<div class="col-xs-12 col-md-6">
-						<span class="head-span">Address</span>
+						<span class="head-span">{{ trans('main.address') }}</span>
 						<input type="text" name="address" placeholder="Maadi - Cairo">
 					</div>
 					<div class="col-xs-12 col-md-6 last-x">
-						<span class="head-span">Email Address</span>
+						<span class="head-span">{{ trans('main.email') }}</span>
 						<input type="email" name="email" placeholder="Example147@gmail.com">
 					</div>
 					
 					<div class="clearfix"></div>
 				</div>
 
-				<p class="head-p">Family Info</p>
+				<p class="head-p">{{ trans('main.quest_family_info') }}</p>
 				<div class="form">
 					<div class="col-xs-12 col-md-6 last-x">
-						<span class="head-span">If You Have Children, How Many And What Are Their Ages?</span>
+						<span class="head-span">{{ trans('main.quest_span1') }}</span>
 						<textarea name="family" placeholder="2 &#10;First 8 Years Old&#10;Second 5 Years Old"></textarea>
 					</div>
 					<div class="clearfix"></div>
 				</div>
 
-				<p class="head-p">Sulazi Goals</p>
+				<p class="head-p">{{ trans('main.quest_goals') }}</p>
 				<div class="form">
 					<div class="col-xs-12 col-md-6 mg-bt-30">
-						<span class="head-span">What Is Your Overall Goal For Sulazi?</span>
+						<span class="head-span">{{ trans('main.quest_span2') }}</span>
 						<input type="text" name="goal1" placeholder="Write What You Feel Right For You...">
 					</div>
 					<div class="col-xs-12 col-md-6 mg-bt-30">
-						<span class="head-span">How Many People Do You Want To Be Able To Accommodate In This Space At A Maximum?</span>
+						<span class="head-span">{{ trans('main.quest_span3') }}</span>
 						<input type="text" name="goal2" placeholder="2">
 					</div>
 					<div class="col-xs-12 col-md-6 last-x">
-						<span class="head-span">What Is Your Overall Budget?</span>
+						<span class="head-span">{{ trans('main.quest_span4') }}</span>
 						<select name="goal3" class="select2">
-							<option value="1">Low</option>
-							<option value="2">Mid</option>
-							<option value="3">High</option>
+							<option value="1">{{ trans('main.low') }}</option>
+							<option value="2">{{ trans('main.mid') }}</option>
+							<option value="3">{{ trans('main.high') }}</option>
 						</select>
 					</div>
 					<div class="clearfix"></div>
 				</div>
 
-				<p class="head-p">What's Your Style?</p>
+				<p class="head-p">{{ trans('main.quest_span5') }}</p>
 				<div class="form">
 					<div class="col-xs-12 col-md-6 mg-bt-30 mult">
-						<span class="head-span">What's Your Decorating Style?</span>
+						<span class="head-span">{{ trans('main.quest_span6') }}</span>
 						<select name="style1[]" class="select2" multiple>
-							<option value="1" selected>Traditional</option>
-							<option value="2">Modern</option>
-							<option value="3" selected>Rustic</option>
-							<option value="4">Dramatic & Bold</option>
-							<option value="5">Relaxed & Serenee</option>
-							<option value="6">Beachy</option>
-							<option value="7">Eclectic</option>
-							<option value="8">Comfortable</option>
-							<option value="9">Formal</option>
-							<option value="10">Bohemian</option>
+							<option value="1" selected>{{ trans('main.traditional') }}</option>
+							<option value="2">{{ trans('main.modern') }}</option>
+							<option value="3" selected>{{ trans('main.rustic') }}</option>
+							<option value="4">{{ trans('main.drama') }}</option>
+							<option value="5">{{ trans('main.relax') }}</option>
+							<option value="6">{{ trans('main.beachy') }}</option>
+							<option value="7">{{ trans('main.eclectic') }}</option>
+							<option value="8">{{ trans('main.comfortable') }}</option>
+							<option value="9">{{ trans('main.formal') }}</option>
+							<option value="10">{{ trans('main.bohemian') }}</option>
 						</select>
-						<p class="small-p">You Can Choose Maximum 2 Styles</p>
+						<p class="small-p">{{ trans('main.quest_span7') }}</p>
 					</div>
 					<div class="col-xs-12 col-md-6 mg-bt-30">
-						<span class="head-span">What Color(s) Do You Like, If Any Preference?</span>
+						<span class="head-span">{{ trans('main.quest_span8') }}</span>
 						<input type="text" name="style2" placeholder="Red">
 					</div>
 					<div class="clearfix"></div>
 					<div class="col-xs-12 col-md-6">
-						<span class="head-span">What Color(s) And / Or Design Elements Do You Dislike, If Any?</span>
+						<span class="head-span">{{ trans('main.quest_span9') }}</span>
 						<input type="text" name="style3" placeholder="Blue">
 					</div>
 					<div class="col-xs-12 col-md-6 last-x">
-						<span class="head-span">Does Your Space Require Lamps For Light?</span>
+						<span class="head-span">{{ trans('main.quest_span10') }}</span>
 						<select name="style4" class="select2">
-							<option value="1">Yes</option>
-							<option value="2">No</option>
+							<option value="1">{{ trans('main.yes') }}</option>
+							<option value="2">{{ trans('main.no') }}</option>
 						</select>
 					</div>
 					<div class="clearfix"></div>
 				</div>
 
-				<p class="head-p">Window Treatments</p>
+				<p class="head-p">{{ trans('main.quest_span11') }}</p>
 				<div class="form">
 					<div class="col-xs-12 col-md-6 last-x">
-						<span class="head-span">Do You Want/Need New Window/French Door Treatments?</span>
+						<span class="head-span">{{ trans('main.quest_span12') }}</span>
 						<select name="treatments" class="select2">
-							<option value="1">Yes</option>
-							<option value="2">No</option>
+							<option value="1">{{ trans('main.yes') }}</option>
+							<option value="2">{{ trans('main.no') }}</option>
 						</select>
 					</div>
 					<div class="clearfix"></div>
 				</div>
 
-				<p class="head-p">Measurements</p>
+				<p class="head-p">{{ trans('main.quest_span13') }}</p>
 				<div class="form">
 					<div class="col-xs-12 col-md-6 last-x">
-						<span class="head-span">What Is The Height From The Ceiling To Floor?</span>
+						<span class="head-span">{{ trans('main.quest_span14') }}</span>
 						<input type="text" name="measurements" placeholder="150 cm">
 					</div>
 					<div class="clearfix"></div>
 				</div>
-				<button class="header-buttons">Submit</button>
+				<button class="header-buttons">{{ trans('main.submit_button') }}</button>
 			</div>
 		</div>
 	</div>

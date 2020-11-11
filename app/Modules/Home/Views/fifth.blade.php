@@ -1,6 +1,6 @@
 @extends('Frontend.Layouts.master')
 
-@section('title','Fifth')
+@section('title',trans('main.sixth_page'))
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
@@ -13,29 +13,29 @@
 	<div class="col-xs-12 second-section page">
 		<div class="container">
 			<div class="interior roomlift text-center">
-				<h1>When Do You Need To Have Your Perfect Room? </h1>
+				<h1>{{ trans('main.sixth_page_h') }}</h1>
 				<div class="row">
 					<div class="col-xs-12 col-md-3"></div>
 					<div class="col-xs-12 col-md-2 col-sm-6 text-center">
 						<div class="cards">
 							<img src="{{ URL::to('/assets/images/asap.png') }}" alt="icon">							
 						</div>
-						<p>ASAP</p>
+						<p>{{ trans('main.sixth_asap') }}</p>
 					</div>
 					<div class="col-xs-12 col-md-2 col-sm-6 text-center  active">
 						<div class="cards">
 							<img src="{{ URL::to('/assets/images/soonish.png') }}" alt="icon">							
 						</div>
-						<p>Soonish</p>
+						<p>{{ trans('main.sixth_soonish') }}</p>
 					</div>
 					<div class="col-xs-12 col-md-2 col-sm-6 text-center">
 						<div class="cards rush">
 							<img src="{{ URL::to('/assets/images/no-rush.png') }}" alt="icon">							
 						</div>
-						<p>No Rush</p>
+						<p>{{ trans('main.sixth_rush') }}</p>
 					</div>
 					<div class="clearfix"></div>
-					<a href="{{ URL::to('/sixth') }}" class="header-buttons">Continue</a>
+					<a href="{{ URL::to('/sixth') }}" class="header-buttons">{{ trans('main.continue') }}</a>
 				</div>
 			</div>
 		</div>

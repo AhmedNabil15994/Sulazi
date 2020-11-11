@@ -1,6 +1,6 @@
 @extends('Frontend.Layouts.master')
 
-@section('title','Details')
+@section('title',trans('main.details'))
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
@@ -14,15 +14,15 @@
 		<div class="container">
 			<div class="interior roomlift text-center">
 				<h1><img src="{{ URL::to('/assets/images/logo2.png') }}" alt="icon"> </h1>
-				<p class="main">
-					I Studied interior design because I believe everyone deserve a better living through quality design.<br>
-				The internet is the new shopping center for people. Why not giving them the better quality spaces with simple steps.
-				</p>
-				<b>The easy way to design your home</b>
-				<p class="main">An online interior design service, that will work with your style and budget anywhere you are.</p>
-				<b>Personalized and within your budget</b>
-				<p class="main">We can help you with any project</p>
-				<a class="header-buttons">Start Your project</a>
+				<b>{!! trans('main.about_b1') !!}</b>
+				<p class="main">{!! trans('main.about_p1') !!}</p>
+				<b>{!! trans('main.about_b2') !!}</b>
+				<p class="main">{!! trans('main.about_p2') !!}</p>
+				<b>{!! trans('main.about_b3') !!}</b>
+				<p class="main">{!! trans('main.about_p3') !!}</p>
+				<b>{!! trans('main.about_b4') !!}</b>
+				<p class="main">{!! trans('main.about_p4') !!}</p>
+				<a class="header-buttons">{{ trans('main.start_your') }}</a>
 			</div>
 		</div>
 	</div>

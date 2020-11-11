@@ -1,6 +1,6 @@
 @extends('Frontend.Layouts.master')
 
-@section('title','Faqs')
+@section('title',trans('main.link4'))
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
@@ -14,55 +14,34 @@
 	<div class="col-xs-12 col-md-12 second-section page">
 		<div class="container">
 			<div class="interior roomlift text-center">
-				<h1 class="first-head">FAQS </h1>
+				<h1 class="first-head">{{ trans('main.link4') }} </h1>
 				<div class="row">
 					<div class="col-xs-12 col-md-10 col-md-offset-1 faq-element open">
-						<span class="pull-left first">1- How the process of Sulazi work?</span>
+						<span class="pull-left first">1- {{ trans('main.faq_q1') }}</span>
 						<span class="pull-right last"><i class="fa fa-minus"></i></span>
 						<div class="clearfix"></div>
-						<p>We are an online interior design service that combine the knowledge and personalization you get from working with a real designer. You will see interior design interior ideas in your exact room, collaborate online with your designer, and shop your entire look</p>
+						<p>{{ trans('main.faq_a1') }}</p>
 						<hr>
 					</div>
 					<div class="col-xs-12 col-md-10 col-md-offset-1 faq-element">
-						<span class="pull-left first">2- How the process of Sulazi work?</span>
+						<span class="pull-left first">2- {{ trans('main.faq_q2') }}</span>
 						<span class="pull-right last"><i class="fa fa-plus"></i></span>
 						<div class="clearfix"></div>
-						<p>We are an online interior design service that combine the knowledge and personalization you get from working with a real designer. You will see interior design interior ideas in your exact room, collaborate online with your designer, and shop your entire look</p>
+						<p>{{ trans('main.faq_a2') }}</p>
 						<hr>
 					</div>
 					<div class="col-xs-12 col-md-10 col-md-offset-1 faq-element">
-						<span class="pull-left first">3- How the process of Sulazi work?</span>
+						<span class="pull-left first">3- {{ trans('main.faq_q3') }}</span>
 						<span class="pull-right last"><i class="fa fa-plus"></i></span>
 						<div class="clearfix"></div>
-						<p>We are an online interior design service that combine the knowledge and personalization you get from working with a real designer. You will see interior design interior ideas in your exact room, collaborate online with your designer, and shop your entire look</p>
+						<p>{{ trans('main.faq_a3') }}</p>
 						<hr>
 					</div>
 					<div class="col-xs-12 col-md-10 col-md-offset-1 faq-element">
-						<span class="pull-left first">4- How the process of Sulazi work?</span>
+						<span class="pull-left first">4- {{ trans('main.faq_q4') }}</span>
 						<span class="pull-right last"><i class="fa fa-plus"></i></span>
 						<div class="clearfix"></div>
-						<p>We are an online interior design service that combine the knowledge and personalization you get from working with a real designer. You will see interior design interior ideas in your exact room, collaborate online with your designer, and shop your entire look</p>
-						<hr>
-					</div>
-					<div class="col-xs-12 col-md-10 col-md-offset-1 faq-element">
-						<span class="pull-left first">5- How the process of Sulazi work?</span>
-						<span class="pull-right last"><i class="fa fa-plus"></i></span>
-						<div class="clearfix"></div>
-						<p>We are an online interior design service that combine the knowledge and personalization you get from working with a real designer. You will see interior design interior ideas in your exact room, collaborate online with your designer, and shop your entire look</p>
-						<hr>
-					</div>
-					<div class="col-xs-12 col-md-10 col-md-offset-1 faq-element">
-						<span class="pull-left first">6- How the process of Sulazi work?</span>
-						<span class="pull-right last"><i class="fa fa-plus"></i></span>
-						<div class="clearfix"></div>
-						<p>We are an online interior design service that combine the knowledge and personalization you get from working with a real designer. You will see interior design interior ideas in your exact room, collaborate online with your designer, and shop your entire look</p>
-						<hr>
-					</div>
-					<div class="col-xs-12 col-md-10 col-md-offset-1 faq-element">
-						<span class="pull-left first">7- How the process of Sulazi work?</span>
-						<span class="pull-right last"><i class="fa fa-plus"></i></span>
-						<div class="clearfix"></div>
-						<p>We are an online interior design service that combine the knowledge and personalization you get from working with a real designer. You will see interior design interior ideas in your exact room, collaborate online with your designer, and shop your entire look</p>
+						<p>{{ trans('main.faq_a4') }}</p>
 						<hr>
 					</div>
 				</div>

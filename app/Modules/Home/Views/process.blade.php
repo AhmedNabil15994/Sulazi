@@ -1,6 +1,6 @@
 @extends('Frontend.Layouts.master')
 
-@section('title','Process')
+@section('title',trans('main.process'))
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
@@ -14,10 +14,10 @@
 		<div class="container">
 			<div class="interior roomlift text-center">
 				<img class="img animate__animated animate__slow animate__pulse" src="{{ URL::to('/assets/images/process.png') }}" alt="process">
-				<h1>Our Process </h1>
-				<p>How The Process Of Sulazi Work?</p>
-				<p>We are an online interior design service that combine the knowledge and personalization you get from working with a real designer. You will see interior design interior ideas in your exact room, collaborate online with your designer, and shop your entire look</p>
-				<a class="header-button">Start Your Project</a>
+				<h1>{{ trans('main.our_process') }}</h1>
+				<p>{{ trans('main.our_process_p1') }}</p>
+				<p>{{ trans('main.our_process_p2') }}</p>
+				<a class="header-button">{{ trans('main.start_your') }}</a>
 			</div>
 		</div>
 	</div>
@@ -33,15 +33,15 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior process text-left">
-					<h1>1- Show Us Your Room</h1>
-					<p>Its easy! Take photos of your room. Then, upload those photos to our site.</p>
+					<h1>1- {{ trans('main.proces_h1') }}</h1>
+					<p>{{ trans('main.proces_p1') }}</p>
 				</div>
 			</div>
 			<div class="clearfix"></div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior process text-left">
-					<h1>2- help us get to know you</h1>
-					<p>Interior design is personal so we want to get to know you, your space, and anyone else (kiddos, pets, partners) who lives there. Take our style quiz and tell us more details about your room, budget, and lifestyle. Once we have all your info, our designers will get to work creating  design you'll love. </p>
+					<h1>2- {{ trans('main.proces_h2') }}</h1>
+					<p>{{ trans('main.proces_p2') }}</p>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
@@ -61,15 +61,15 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior process text-left">
-					<h1>3- get your first design</h1>
-					<p>Let the fun begin, we will send you two initial concepts of your room, and decide which one is the right design for you</p>
+					<h1>3- {{ trans('main.proces_h3') }}</h1>
+					<p>{{ trans('main.proces_p3') }}</p>
 				</div>
 			</div>
 			<div class="clearfix"></div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior process text-left">
-					<h1>4- work with our designers to make change</h1>
-					<p>Your first designs are just the starting point. From there, you can continue to work with your sulazi designer to try new layouts or furniture styles until you're 100% happy. </p>
+					<h1>4- {{ trans('main.proces_h4') }}</h1>
+					<p>{{ trans('main.proces_p4') }}</p>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
@@ -89,15 +89,15 @@
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior process text-left">
-					<h1>5- if you chose that we shop your furniture for you</h1>
-					<p>Once you land on a design you love, shop your whole look (or just the parts you love) in one easy checkout. We offer exclusive discounts too, so you'll always get the best deal on top of already-best prices. <br>Our dedicated order management team will coordinate all your purchases and any returns or exchanges. We'll keep you up-to-date on the status of all your items so all you have to do is get excited for your new room! </p>
+					<h1>5- {{ trans('main.proces_h5') }}</h1>
+					<p>{!! trans('main.proces_p5') !!}</p>
 				</div>
 			</div>
 			<div class="clearfix"></div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
 				<div class="interior process text-left">
-					<h1>6- what you get</h1>
-					<p>Floorplan - paint colors - fabric choices <br>Each item selected with its details <br>So you can choose the same selection or similar choices</p>
+					<h1>6- {{ trans('main.proces_h6') }}</h1>
+					<p>{!! trans('main.proces_p6') !!}</p>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-12 col-md-6">
@@ -105,35 +105,35 @@
 					<div class="col-md-3 hidden-sm"></div>
 					<div class="col-xs-12 col-sm-6 col-md-3 animate__animated">
 						<img src="{{ URL::to('/assets/images/initial.png') }}" alt="initial">
-						<p>2 Initial Concepts</p>
+						<p>2 {{ trans('main.proces_initial') }}</p>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-3 animate__animated">
 						<img src="{{ URL::to('/assets/images/messages.png') }}" alt="messages">
-						<p>Message With Your Designer</p>
+						<p>{{ trans('main.proces_message') }}</p>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-3 animate__animated">
 						<img src="{{ URL::to('/assets/images/final-design.png') }}" alt="final-design">
-						<p>Final Design</p>
+						<p>{{ trans('main.proces_final') }}</p>
 					</div>
 					<div class="clearfix hidden-sm"></div>
 					<div class="col-md-3 hidden-sm"></div>
 					<div class="col-xs-12 col-sm-6 col-md-3 animate__animated">
 						<img src="{{ URL::to('/assets/images/floor-plan.png') }}" alt="floor-plan">
-						<p>Floor Plan & Setup Instructions</p>
+						<p>{{ trans('main.proces_floor') }}</p>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-3 animate__animated">
 						<img src="{{ URL::to('/assets/images/shopping-list.png') }}" alt="shopping-list">
-						<p>Shopping List</p>
+						<p>{{ trans('main.proces_shopping') }}</p>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-3 animate__animated">
 						<img src="{{ URL::to('/assets/images/the-box.png') }}" alt="the-box">
-						<p>The Box</p>
+						<p>{{ trans('main.proces_box') }}</p>
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 text-center">
 				<div class="interior process text-center">
-					<h1>7- Enjoy</h1>
+					<h1>7- {{ trans('main.proces_h7') }}</h1>
 					<img class="last-img animate__animated" src="{{ URL::to('/assets/images/process2.png') }}" alt="process">
 				</div>
 			</div>

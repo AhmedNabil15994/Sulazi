@@ -1,6 +1,6 @@
 @extends('Frontend.Layouts.master')
 
-@section('title','Second')
+@section('title',trans('main.third_page'))
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
@@ -13,23 +13,23 @@
 	<div class="col-xs-12 second-section page">
 		<div class="container">
 			<div class="interior roomlift text-center">
-				<h1>Do You Rent Or Own Your Place? </h1>
+				<h1>{{ trans('main.third_page_h') }}</h1>
 				<div class="row">
 					<div class="col-xs-12 col-md-4"></div>
 					<div class="col-xs-12 col-md-2 col-sm-6 text-center  active">
 						<div class="cards">
 							<img src="{{ URL::to('/assets/images/rent.png') }}" alt="icon">							
 						</div>
-						<p>Rent</p>
+						<p>{{ trans('main.rent') }}</p>
 					</div>
 					<div class="col-xs-12 col-md-2 col-sm-6 text-center">
 						<div class="cards">
 							<img src="{{ URL::to('/assets/images/own.png') }}" alt="icon">							
 						</div>
-						<p>Own</p>
+						<p>{{ trans('main.own') }}</p>
 					</div>
 					<div class="clearfix"></div>
-					<a href="{{ URL::to('/third') }}" class="header-buttons">Continue</a>
+					<a href="{{ URL::to('/third') }}" class="header-buttons">{{ trans('main.continue') }}</a>
 				</div>
 			</div>
 		</div>

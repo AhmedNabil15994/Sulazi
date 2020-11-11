@@ -1,6 +1,6 @@
 @extends('Frontend.Layouts.master')
 
-@section('title','Home')
+@section('title',trans('main.link1'))
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar.css') }}">
@@ -15,26 +15,26 @@
 	    <div class="swiper-wrapper">
 	      	<div class="swiper-slide animate__animated animate__slow animate__fadeIn" style="background-image:  url('{{ asset("/assets/images/back1.png") }}'); ">
 	      		<div class="data text-left">
-					<h1>Sulazi provides <br> the interior design you imagine <br> (start your design)</h1>
-					<button class="header-button">find your style</button>
+					<h1>{!! trans('main.p1') !!}</h1>
+					<button class="header-button">{!! trans('main.find_your') !!}</button>
 				</div>
 	      	</div>
 	      	<div class="swiper-slide" style="background-image:  url('{{ asset("/assets/images/back1.png") }}'); ">
 	      		<div class="data text-left">
-					<h1>Sulazi provides <br> the interior design you imagine <br> (start your design)</h1>
-					<button class="header-button">find your style</button>
+					<h1>{!! trans('main.p2') !!}</h1>
+					<button class="header-button">{!! trans('main.find_your') !!}</button>
 				</div>
 	      	</div>
 	      	<div class="swiper-slide" style="background-image:  url('{{ asset("/assets/images/back1.png") }}'); ">
 	      		<div class="data text-left">
-					<h1>Sulazi provides <br> the interior design you imagine <br> (start your design)</h1>
-					<button class="header-button">find your style</button>
+					<h1>{!! trans('main.p3') !!}</h1>
+					<button class="header-button">{!! trans('main.find_your') !!}</button>
 				</div>
 	      	</div>
 	      	<div class="swiper-slide" style="background-image:  url('{{ asset("/assets/images/back1.png") }}'); ">
 	      		<div class="data text-left">
-					<h1>Sulazi provides <br> the interior design you imagine <br> (start your design)</h1>
-					<button class="header-button">find your style</button>
+					<h1>{!! trans('main.p4') !!}</h1>
+					<button class="header-button">{!! trans('main.find_your') !!}</button>
 				</div>
 	      	</div>
 	    </div>
@@ -55,30 +55,30 @@
 	<div class="col-xs-12 second-section">
 		<div class="container">
 			<div class="interior roomlift text-center">
-				<h1>Get Your Roomlifted In <br> 3 Easy Steps! </h1>
+				<h1>{!! trans('main.easy_steps') !!}</h1>
 				<div class="row">
 					<div class="col-xs-12 col-md-4 col-sm-6">
 						<div class="card active">
 							<img src="{{ URL::to('/assets/images/icon1.png') }}" alt="icon">
-							<h3>Tell us about yourself and <br> your space</h3>
-							<p>Fill out this questionnaire for each roomLift that you are purchasing. This will help us get to know you and your design preferences and objectives.</p>
-							<a href="{{ URL::to('/questionnaire') }}" class="header-button">Questionare</a>
+							<h3>{!! trans('main.card1_h') !!}</h3>
+							<p>{{ trans('main.card1_p') }}</p>
+							<a href="{{ URL::to('/questionnaire') }}" class="header-button">{{ trans('main.card1_button') }}</a>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-4 col-sm-6">
 						<div class="card">
 							<img src="{{ URL::to('/assets/images/icon2.png') }}" alt="icon">
-							<h3>Send us a couple of photos <br> & pay for your box</h3>
-							<p>Take 5-8 photos of your space(s) that need a roomLift. Make sure to label them with your name (LastName, FirstName) so we know that it’s from you!</p>
-							<a href="{{ URL::to('/uploadPage') }}" class="header-button">Upload</a>
+							<h3>{!! trans('main.card2_h') !!}</h3>
+							<p>{{ trans('main.card2_p') }}</p>
+							<a href="{{ URL::to('/uploadPage') }}" class="header-button">{{ trans('main.card2_button') }}</a>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-4 col-sm-6">
 						<div class="card">
 							<img src="{{ URL::to('/assets/images/icon3.png') }}" alt="icon">
-							<h3>Receive your roomLift <br> designs within 2-3 weeks!</h3>
-							<p>In about 2 weeks you will receive your roomLift Box(es) on your doorstep….it's like a little present full of design ideas and solutions!</p>
-							<a href="{{ URL::to('/details') }}" class="header-button">Details</a>
+							<h3>{!! trans('main.card3_h') !!}</h3>
+							<p>{!! trans('main.card3_p') !!}</p>
+							<a href="{{ URL::to('/details') }}" class="header-button">{{ trans('main.card3_button') }}</a>
 						</div>
 					</div>
 				</div>
@@ -92,28 +92,28 @@
 				<div class="interior images-section text-center">
 					<div class="col-xs-12 col-sm-6 col-md-4 animate__animated">
 						<img src="{{ URL::to('/assets/images/initial.png') }}" alt="initial">
-						<p>2 Initial Concepts</p>
+						<p>2 {{ trans('main.proces_initial') }}</p>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-4 animate__animated">
 						<img src="{{ URL::to('/assets/images/messages.png') }}" alt="messages">
-						<p>Message With Your Designer</p>
+						<p>{{ trans('main.proces_message') }}</p>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-4 animate__animated">
 						<img src="{{ URL::to('/assets/images/final-design.png') }}" alt="final-design">
-						<p>Final Design</p>
+						<p>{{ trans('main.proces_final') }}</p>
 					</div>
 					<div class="clearfix hidden-sm"></div>
 					<div class="col-xs-12 col-sm-6 col-md-4 animate__animated">
 						<img src="{{ URL::to('/assets/images/floor-plan.png') }}" alt="floor-plan">
-						<p>Floor Plan & Setup Instructions</p>
+						<p>{{ trans('main.proces_floor') }}</p>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-4 animate__animated">
 						<img src="{{ URL::to('/assets/images/shopping-list.png') }}" alt="shopping-list">
-						<p>Shopping List</p>
+						<p>{{ trans('main.proces_shopping') }}</p>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-4 animate__animated">
 						<img src="{{ URL::to('/assets/images/the-box.png') }}" alt="the-box">
-						<p>The Box</p>
+						<p>{{ trans('main.proces_box') }}</p>
 					</div>
 				</div>
 			</div>
@@ -191,13 +191,13 @@
 					<div class="col-xs-12 col-md-6 col-sm-12">
 						<div class="collection animate__animated" style="background-image: url('{{ asset("/assets/images/industrial.png") }}'); ">
 							<div class="overlay"></div>
-							<p>Industrial</p>
+							<p>{{ trans('main.industrial') }}</p>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-6 col-sm-12">
 						<div class="collection animate__animated" style="background-image: url('{{ asset("/assets/images/minimal.png") }}'); ">
 							<div class="overlay"></div>
-							<p>Minimalist</p>
+							<p>{{ trans('main.minimalist') }}</p>
 						</div>
 					</div>
 				</div>
@@ -205,25 +205,25 @@
 					<div class="col-xs-12 col-md-3 col-sm-6">
 						<div class="collection animate__animated" style="background-image: url('{{ asset("/assets/images/modern.png") }}'); ">
 							<div class="overlay"></div>
-							<p>Modern</p>
+							<p>{{ trans('main.modern') }}</p>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-3 col-sm-6">
 						<div class="collection animate__animated" style="background-image: url('{{ asset("/assets/images/traditional.png") }}'); ">
 							<div class="overlay"></div>
-							<p>Traditional</p>
+							<p>{{ trans('main.traditional') }}</p>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-3 col-sm-6">
 						<div class="collection animate__animated" style="background-image: url('{{ asset("/assets/images/bohemian.png") }}'); ">
 							<div class="overlay"></div>
-							<p>Bohemian</p>
+							<p>{{ trans('main.bohemian') }}</p>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-3 col-sm-6">
 						<div class="collection animate__animated" style="background-image: url('{{ asset("/assets/images/contemporary.png") }}'); ">
 							<div class="overlay"></div>
-							<p>Contemporary</p>
+							<p>{{ trans('main.contemporary') }}</p>
 						</div>
 					</div>
 				</div>
@@ -231,13 +231,13 @@
 					<div class="col-xs-12 col-md-3 col-sm-6">
 						<div class="collection animate__animated" style="background-image: url('{{ asset("/assets/images/rustic.png") }}'); ">
 							<div class="overlay"></div>
-							<p>Rustic</p>
+							<p>{{ trans('main.rustic') }}</p>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-9 col-sm-6">
 						<div class="collection animate__animated" style="background-image: url('{{ asset("/assets/images/mid-country.png") }}'); ">
 							<div class="overlay"></div>
-							<p>Mid Country Modern</p>
+							<p>{{ trans('main.mid_cen') }}</p>
 						</div>
 					</div>
 				</div>

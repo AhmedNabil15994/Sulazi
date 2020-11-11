@@ -1,6 +1,6 @@
 @extends('Frontend.Layouts.master')
 
-@section('title','First')
+@section('title',trans('main.second_page'))
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
@@ -13,29 +13,29 @@
 	<div class="col-xs-12 second-section page">
 		<div class="container">
 			<div class="interior roomlift text-center">
-				<h1>What Kind Of Home Do You Live In? </h1>
+				<h1>{{ trans('main.second_page_h') }}</h1>
 				<div class="row">
 					<div class="col-xs-12 col-md-3"></div>
 					<div class="col-xs-12 col-md-2 col-sm-6 text-center">
 						<div class="cards">
 							<img src="{{ URL::to('/assets/images/house.png') }}" alt="icon">							
 						</div>
-						<p>House</p>
+						<p>{{ trans('main.house') }}</p>
 					</div>
 					<div class="col-xs-12 col-md-2 col-sm-6 text-center active">
 						<div class="cards">
 							<img src="{{ URL::to('/assets/images/townhouse.png') }}" alt="icon">							
 						</div>
-						<p>Townhouse</p>
+						<p>{{ trans('main.townhouse') }}</p>
 					</div>
 					<div class="col-xs-12 col-md-2 col-sm-6 text-center">
 						<div class="cards">
 							<img src="{{ URL::to('/assets/images/apartment.png') }}" alt="icon">							
 						</div>
-						<p>Apartment</p>
+						<p>{{ trans('main.apartment') }}</p>
 					</div>
 					<div class="clearfix"></div>
-					<a href="{{ URL::to('/second') }}" class="header-buttons">Continue</a>
+					<a href="{{ URL::to('/second') }}" class="header-buttons">{{ trans('main.continue') }}</a>
 				</div>
 			</div>
 		</div>

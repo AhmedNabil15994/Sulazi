@@ -16,24 +16,24 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse pull-right" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="mainLi"><a href="{{ URL::to('/') }}">Home <span class="sr-only">(current)</span></a></li>
+        <li class="mainLi"><a href="{{ URL::to('/') }}">{{ trans('main.link1') }} <span class="sr-only">(current)</span></a></li>
         <li class="dropdown mainLi">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ trans('main.link2') }} <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="{{ URL::to('/details') }}">The Details</a></li>
-              <li><a href="{{ URL::to('/process') }}">The Process</a></li>
-              <li><a href="{{ URL::to('/prices') }}">Prices & Packages</a></li>
+              <li><a href="{{ URL::to('/details') }}">{{ trans('main.details') }}</a></li>
+              <li><a href="{{ URL::to('/process') }}">{{ trans('main.process') }}</a></li>
+              <li><a href="{{ URL::to('/prices') }}">{{ trans('main.price_package') }}</a></li>
             </ul>
         </li>
         <li class="dropdown mainLi">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Shop <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ trans('main.link3') }} <span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="{{ URL::to('/boxes') }}">The Boxes</a></li>
-              <li><a href="{{ URL::to('/giftCard') }}">Gift Card</a></li>
+              <li><a href="{{ URL::to('/boxes') }}">{{ trans('main.boxes') }}</a></li>
+              <li><a href="{{ URL::to('/giftCard') }}">{{ trans('main.gift_card') }}</a></li>
             </ul>
         </li>
-        <li class="mainLi"><a href="{{ URL::to('/faqs') }}">Faq</a></li>
-        <li class="btr"><a class="my-btn" href="{{ URL::to('/getStarted') }}">Get Started</a></li>
+        <li class="mainLi"><a href="{{ URL::to('/faqs') }}">{{ trans('main.link4') }}</a></li>
+        <li class="btr"><a class="my-btn" href="{{ URL::to('/getStarted') }}">{{ trans('main.link5') }}</a></li>
         <li class="langs">
           <div class="kt-header__topbar-item kt-header__topbar-item--langs">
             <div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="10px,0px">

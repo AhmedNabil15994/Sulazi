@@ -1,6 +1,6 @@
 @extends('Frontend.Layouts.master')
 
-@section('title','Upload')
+@section('title',trans('main.card2_button'))
 
 @section('styles')
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
@@ -13,14 +13,14 @@
 	<div class="col-xs-12 col-md-6 col-md-offset-3 second-section uploadPage page">
 		<div class="container">
 			<div class="interior roomlift text-center">
-				<h1>Upload Your Files </h1>
-				<p>Please Label Your Files Firstname Lastname</p>
+				<h1>{{ trans('main.upload_your') }} </h1>
+				<p>{{ trans('main.upload_p') }}</p>
 				<div class="row">
-					<a class="header-buttons upload">Upload</a>
+					<a class="header-buttons upload">{{ trans('main.card2_button') }}</a>
 					<input type="file" name="image" id="image" accept=".png, .jpg, .jpeg">
 					<br>
 					<div class="row upload-images"></div>
-					<a class="header-buttons submit hidden">Submit</a>
+					<a class="header-buttons submit hidden">{{ trans('main.submit') }}</a>
 				</div>
 			</div>
 		</div>
