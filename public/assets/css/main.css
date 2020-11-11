@@ -443,3 +443,9 @@ html[dir="rtl"] .back i:before{
 html[dir="rtl"] .has-cart .cart-dot{
 	right: 0;
 }
+html[dir="rtl"] .page.info p.title{
+    float: none !important; 
+}
+html[dir="rtl"] .page .row .form .col-xs-12{
+    float: right !important;
+}
