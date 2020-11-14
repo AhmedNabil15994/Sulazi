@@ -1,4 +1,8 @@
-<nav class="navbar navbar-default">
+@php $className = ''; @endphp
+@if(\Route::getCurrentRoute()->uri != '/')
+@php $className = 'black-color'; @endphp
+@endif
+<nav class="navbar navbar-default {{ $className }}">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">

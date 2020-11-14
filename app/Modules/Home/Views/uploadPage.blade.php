@@ -6,7 +6,7 @@
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/navbar-dark.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ URL::to('/assets/css/uploadpage.css') }}">
 @endsection
-@section('logo', URL::to('/assets/images/logo.png'))
+@section('logo', URL::to('/assets/images/vlogo4.png'))
 @section('cart', URL::to('/assets/images/cart-icon2.png'))
 
 @section('content')

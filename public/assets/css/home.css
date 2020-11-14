@@ -103,7 +103,13 @@
 	margin-bottom: 40px; 
 }
 .fixed-height{
-	height: 110px !important;
+	height: 141px !important;
+}
+.back-color .navbar-brand{
+	width: 100%;
+	height: 100%;
+	display: block;
+	padding: 0;
 }
 .container .interior.roomlift .card p{
 	font-family: Quicksand;

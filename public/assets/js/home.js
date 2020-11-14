@@ -15,7 +15,7 @@ $(function(){
               $('.navbar').removeClass('transparent-color');
               $('.navbar').find('.navbar-image').addClass('fixed-height');
               $('.img-anc').find('img').attr('src','/assets/images/cart-icon2.png');
-              $('.navbar-image').attr('src','/assets/images/logo.png');
+              $('.navbar-image').attr('src','/assets/images/vlogo4.png');
             }
            
         }

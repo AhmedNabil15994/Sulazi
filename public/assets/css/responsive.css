@@ -487,6 +487,10 @@
 	html[dir="rtl"] .col-md-offset-1{
 		margin-right: 0;
 	}
+	html[dir="rtl"] .data{
+		left: 0;
+		right: 30%;
+	}
 	.container{
 		width: 100%;
 	}
@@ -501,13 +505,53 @@
 	.navbar-nav{
 		padding-top: 10px;
 	}
+	html[dir="rtl"] .navbar-nav{
+		padding-top: 40px;
+	}
 	.nav>li{
 		padding: 40px 0;
-		font-size: 20px;
+		font-size: 17px;
 	}
 	.my-btn{
 		font-size: 18px;
 	}
+
+	.back-color .nav>li,
+	html[dir="rtl"] .nav>li{
+		padding: 0;
+		font-size: 17px;
+	}
+	.back-color .my-btn{
+		font-size: 17px;
+	}
+	html[dir="rtl"] .my-btn{
+		width: 110px;
+	}
+	html[dir="ltr"] .back-color .my-btn{
+		width: 150px;
+	}
+	.back-color .nav li.langs,
+	html[dir="rtl"] .nav li.langs{
+		margin-top: 9px;
+	}
+	.back-color .navbar-nav{
+		padding-top: 40px;
+	}
+	html[dir="rtl"] .back-color .navbar-nav{
+		padding: 0;
+		padding-top: 45px;
+	}
+	html[dir="rtl"] .back-color .navbar-brand img{
+		margin-right: -50px;
+	}
+
+
+
+
+
+
+
+
 	a.navbar-brand{
 		padding-top: 2px;
 	}
@@ -938,6 +982,13 @@
 	html[dir="rtl"] .interior.siosi.text-left{
 		padding-left: 20px;
 	}
+	html[dir="rtl"] .col-md-offset-3{
+		margin-right: 15%;
+	}
+	html[dir="rtl"] .data{
+		left: 0;
+		right: 30%;
+	}
 	.row{
 		margin: 0;
 	}
@@ -955,10 +1006,10 @@
 	
 	.nav>li{
 		padding: 40px 0;
-		font-size: 24px;
+		font-size: 17px;
 	}
 	.my-btn{
-		font-size: 20px;
+		font-size: 18px;
 	}
 	a.navbar-brand{
 		padding-top: 2px;
@@ -1440,8 +1491,9 @@
 	}
 }
 @media(min-width: 1200px ) and ( max-width: 1919px){
-	body,html{
-		/*overflow-x: hidden;*/
+	html[dir="rtl"] .data{
+		left: 0;
+		right: 40%;
 	}
 	img.fixed-height{
 		height: 146px !important;
