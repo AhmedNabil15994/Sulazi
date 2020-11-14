@@ -449,3 +449,7 @@ html[dir="rtl"] .page.info p.title{
 html[dir="rtl"] .page .row .form .col-xs-12{
     float: right !important;
 }
+.footer h1 img{
+    width: 200px;
+    height: 200px;
+}

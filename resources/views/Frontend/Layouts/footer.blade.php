@@ -1,7 +1,7 @@
 <!--footer-->
 <section class="col-xs-12 dark-section footer text-center">
   	<div class="container">
-		<h1><img src="{{ URL::to('/assets/images/logo.png') }}" alt="icon"></h1>
+		<h1><img src="{{ URL::to('/assets/images/vlogo4.png') }}" alt="icon"></h1>
 		<div class="row">
 			<img src="{{ URL::to('/assets/images/instagram.png') }}" alt="icon">
 			<img src="{{ URL::to('/assets/images/pee.png') }}" alt="icon">
