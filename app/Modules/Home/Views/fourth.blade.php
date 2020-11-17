@@ -15,27 +15,31 @@
 			<div class="interior roomlift text-center">
 				<h1>{{ trans('main.fifth_page_h') }}</h1>
 				<div class="row">
-					<div class="col-xs-12 col-md-3"></div>
-					<div class="col-xs-12 col-md-2 col-sm-6 text-center">
-						<div class="cards">
-							<img src="{{ URL::to('/assets/images/blank-space.png') }}" alt="icon">							
+					<form action="{{ URL::to('/fifth') }}" method="post" accept-charset="utf-8">
+						@csrf
+						<input type="hidden" name="step" value="2">
+						<div class="col-xs-12 col-md-3"></div>
+						<div class="col-xs-12 col-md-2 col-sm-6 text-center">
+							<div class="cards">
+								<img src="{{ URL::to('/assets/images/blank-space.png') }}" alt="icon">							
+							</div>
+							<p>{{ trans('main.fifth_blank') }}</p>
 						</div>
-						<p>{{ trans('main.fifth_blank') }}</p>
-					</div>
-					<div class="col-xs-12 col-md-2 col-sm-6 text-center  active">
-						<div class="cards">
-							<img src="{{ URL::to('/assets/images/partway.png') }}" alt="icon">							
+						<div class="col-xs-12 col-md-2 col-sm-6 text-center  active">
+							<div class="cards">
+								<img src="{{ URL::to('/assets/images/partway.png') }}" alt="icon">							
+							</div>
+							<p>{{ trans('main.fifth_partway') }}</p>
 						</div>
-						<p>{{ trans('main.fifth_partway') }}</p>
-					</div>
-					<div class="col-xs-12 col-md-2 col-sm-6 text-center">
-						<div class="cards">
-							<img src="{{ URL::to('/assets/images/just-needs.png') }}" alt="icon">							
+						<div class="col-xs-12 col-md-2 col-sm-6 text-center">
+							<div class="cards">
+								<img src="{{ URL::to('/assets/images/just-needs.png') }}" alt="icon">							
+							</div>
+							<p>{{ trans('main.fifth_just') }}</p>
 						</div>
-						<p>{{ trans('main.fifth_just') }}</p>
-					</div>
-					<div class="clearfix"></div>
-					<a href="{{ URL::to('/fifth') }}" class="header-buttons">{{ trans('main.continue') }}</a>
+						<div class="clearfix"></div>
+						<button type="submit" class="header-buttons">{{ trans('main.continue') }}</button>
+					</form>
 				</div>
 			</div>
 		</div>

@@ -15,21 +15,25 @@
 			<div class="interior roomlift text-center">
 				<h1>{{ trans('main.third_page_h') }}</h1>
 				<div class="row">
-					<div class="col-xs-12 col-md-4"></div>
-					<div class="col-xs-12 col-md-2 col-sm-6 text-center  active">
-						<div class="cards">
-							<img src="{{ URL::to('/assets/images/rent.png') }}" alt="icon">							
+					<form action="{{ URL::to('/third') }}" method="post" accept-charset="utf-8">
+						@csrf
+						<input type="hidden" name="step" value="1">
+						<div class="col-xs-12 col-md-4"></div>
+						<div class="col-xs-12 col-md-2 col-sm-6 text-center  active">
+							<div class="cards">
+								<img src="{{ URL::to('/assets/images/rent.png') }}" alt="icon">							
+							</div>
+							<p>{{ trans('main.rent') }}</p>
 						</div>
-						<p>{{ trans('main.rent') }}</p>
-					</div>
-					<div class="col-xs-12 col-md-2 col-sm-6 text-center">
-						<div class="cards">
-							<img src="{{ URL::to('/assets/images/own.png') }}" alt="icon">							
+						<div class="col-xs-12 col-md-2 col-sm-6 text-center">
+							<div class="cards">
+								<img src="{{ URL::to('/assets/images/own.png') }}" alt="icon">							
+							</div>
+							<p>{{ trans('main.own') }}</p>
 						</div>
-						<p>{{ trans('main.own') }}</p>
-					</div>
-					<div class="clearfix"></div>
-					<a href="{{ URL::to('/third') }}" class="header-buttons">{{ trans('main.continue') }}</a>
+						<div class="clearfix"></div>
+						<button type="submit" class="header-buttons">{{ trans('main.continue') }}</button>
+					</form>
 				</div>
 			</div>
 		</div>

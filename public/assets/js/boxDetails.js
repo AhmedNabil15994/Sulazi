@@ -12,4 +12,7 @@ $(function(){
     	responsive:true,
     	pager: false,
     });
+    $('.gift').on('click',function(){
+        $(this).addClass('active').siblings().removeClass('active');
+    });
 });

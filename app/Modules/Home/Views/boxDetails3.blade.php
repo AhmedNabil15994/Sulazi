@@ -16,22 +16,22 @@
 			<div class="interior roomlift text-center">
 				<div class="row">
 					<div class="col-xs-12 col-md-6">
-						<img class="main-image animate__animated" src="{{ URL::to('/assets/images/details1.png') }}" alt="giftcard">
+						<img class="main-image animate__animated" src="{{ URL::to('/assets/images/box3.png') }}" alt="giftcard">
 						<div class="slider">
-						    <div class="lest animate__animated"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
-					      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
-					      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
-					      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
-					      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
-					      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/details1.png") }}" alt="follow"></div>
+						    <div class="lest animate__animated"><img src="{{ asset("/assets/images/box3.png") }}" alt="follow"></div>
+					      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/box3.png") }}" alt="follow"></div>
+					      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/box3.png") }}" alt="follow"></div>
+					      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/box3.png") }}" alt="follow"></div>
+					      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/box3.png") }}" alt="follow"></div>
+					      	<div class="lest animate__animated"><img src="{{ asset("/assets/images/box3.png") }}" alt="follow"></div>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-6">
-						<p>{{ trans('main.boxes_box1') }}</p>
-						<p class="value">1500 {{ trans('main.sar') }}</p>
+						<p>{{ trans('main.boxes_box3') }}</p>
+						<p class="value"><span class="cost">700</span> {{ trans('main.sar') }}</p>
 						<p>{{ trans('main.quantity') }}</p>
-						<span class="gift">1 {{ trans('main.room') }}</span>
-						<span class="gift active">2 {{ trans('main.room') }}</span>
+						<span class="gift active" value="1">1 {{ trans('main.room') }}</span>
+						<span class="gift" value="2">2 {{ trans('main.room') }}</span>
 						<div class="clearfix"></div>
 						<button class="header-buttons">{{ trans('main.add_to_cart') }}</button>
 						<button class="header-buttons">{{ trans('main.buy_it') }}</button>
@@ -45,12 +45,12 @@
 				<div class="row">
 					<div class="slider2">
 					    <div class="lest animate__animated">
-					    	<img src="{{ asset("/assets/images/details1.png") }}" alt="follow">
-					    	<p class="lest-p">{{ trans('main.boxes_box3') }}</p>
-					    	<p>700 {{ trans('main.boxes_ras') }}</p>
+					    	<img src="{{ asset("/assets/images/box2.png") }}" alt="follow">
+					    	<p class="lest-p">{{ trans('main.boxes_box2') }}</p>
+					    	<p>2500 {{ trans('main.boxes_ras') }}</p>
 					    </div>
 				      	<div class="lest animate__animated">
-				      		<img src="{{ asset("/assets/images/details1.png") }}" alt="follow">
+				      		<img src="{{ asset("/assets/images/box4.png") }}" alt="follow">
 				      		<p class="lest-p">{{ trans('main.boxes_box4') }}</p>
 					    	<p>3000 {{ trans('main.boxes_ras') }}</p>
 				      	</div>
@@ -64,4 +64,5 @@
 
 @section('scripts')
 <script src="{{ URL::to('/assets/js/boxDetails.js') }}"></script>
+<script src="{{ URL::to('/assets/js/boxDetails3.js') }}"></script>
 @endsection

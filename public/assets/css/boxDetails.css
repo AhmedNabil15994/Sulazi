@@ -75,7 +75,7 @@ img.main-image{
 .col-md-6 p:first-of-type{
 	font-weight: bold;
 }
-.col-md-6 span{
+.col-md-6 span.gift{
 	width: 18%;
 	margin-right: 2%;
 	border-radius: 40px;
@@ -84,6 +84,7 @@ img.main-image{
 	text-align: center;
 	cursor: pointer;
 	font-size: 18px;
+	margin-bottom: 10px;
 	display: inline-block;
 }
 .col-md-6 span.active{
@@ -96,6 +97,7 @@ img.main-image{
 	font-size: 22px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	transition: all ease-in-out .25s;
 }
 .page .header-buttons:first-of-type{
 	background: transparent;
@@ -104,6 +106,14 @@ img.main-image{
 .page .header-buttons:last-of-type{
 	margin-top: 30px; 
 	margin-bottom: 30px; 
+}
+.page .header-buttons:first-of-type:hover{
+	background: #fbd46d;
+	border:0;
+}
+.page .header-buttons:last-of-type:hover{
+	background: transparent;
+	border:1px solid #252525;
 }
 .page p.last{
 	font-size: 20px;

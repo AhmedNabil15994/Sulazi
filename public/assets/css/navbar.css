@@ -81,7 +81,7 @@ nav.navbar-default{
     height: 15px;
     background: #eec946;
     border-radius: 50%;
-    right: 9px;
+    right: 0;
     border: 1px solid #252525;
 }
 @media(max-width: 767px){

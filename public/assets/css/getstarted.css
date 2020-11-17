@@ -29,6 +29,10 @@
 	cursor: pointer;
 	outline: 0;
 }
+.page .header-buttons:hover{
+    background-color: #252525;
+    color: #f6f6f6 !important;
+}
 .page .row div.cards{
 	background: #f6f6f6;
 	width: 200px;

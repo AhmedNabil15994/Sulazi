@@ -215,4 +215,41 @@ return [
     'quest_span14' => 'What Is The Height From The Ceiling To Floor?',
     'submit_button' => 'Submit',
 
+    'status_0' => 'In-Active',
+    'status_1' => 'Active',
+    'status_2' => 'New',
+    'status_3' => 'Refused',
+
+    'paid_0' => 'Not Paid',
+    'paid_1' => 'Paid',
+    'paid_2' => 'Partial Paid',
+
+
+    'valid_1' => 'Sorry First Name Required',
+    'valid_2' => 'Sorry Last Name Required',
+    'valid_3' => 'Sorry Address Required',
+    'valid_4' => 'Sorry Email Address Required',
+    'valid_5' => "Sorry Email Address Form Isn't Correct",
+    'valid_6' => 'Sorry Email Address Exists',
+    'valid_7' => 'Sorry Family Info Required',
+    'valid_8' => 'Sorry Your Overall Goal Required',
+    'valid_9' => 'Sorry Persons Count Required',
+    'valid_10' => 'Sorry Overall Budget Required',
+    'valid_11' => 'Sorry Decorating Style Required',
+    'valid_12' => 'Sorry Color You Like Required',
+    'valid_13' => 'Sorry Color You Dislike Required',
+    'valid_14' => 'Sorry Lamps Field Required',
+    'valid_15' => 'Sorry Window Treatment Required',
+    'valid_16' => 'Sorry Measurments Field Required',
+
+    'upload_1' => 'You Had Uploaded Your Files Before !!',
+    'upload_2' => 'There Is Problem While Uploading !!',
+    'upload_3' => 'Upload Success, Please Wait Administrator Response.',
+
+    'cart' => 'Cart',
+    'order_notes' => 'Order Notes',
+    'subtotal' => 'Subtotal',
+    'cart_p' => 'Shipping, Taxes,Discounts Codes Calculated At Checkout.',
+    'checkout' => 'Checkout',
+
 ];

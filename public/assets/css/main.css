@@ -1,3 +1,10 @@
+.select2-container--open{
+    border: 0 !important;
+}
+.page .header-buttons,
+.text-center .cards{
+    transition: all ease-in-out .25s;
+}
 .kt-header__topbar .kt-header__topbar-item {
     display: -webkit-box;
     display: -ms-flexbox;

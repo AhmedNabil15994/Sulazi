@@ -81,17 +81,19 @@
 	font-family: Quicksand;
 	font-size: 50px;
 	font-weight: 400;
+	margin-bottom: 50px;
 }
 .container .interior.roomlift .card{
 	border-radius: 5px;
 	width: 100%;
 	padding: 30px;
+	cursor: pointer;
 }
 .container .interior.roomlift .card.active{
 	border-radius: 15px;
 	background-color: #fbd46d;
 }
-.container .interior.roomlift .card.active img{
+.container .interior.roomlift .col-xs-12.col-md-4.col-sm-6:first-of-type .card img{
 	margin-top: 35px;
 }
 .container .interior.roomlift .card h3{

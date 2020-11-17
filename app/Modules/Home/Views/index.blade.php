@@ -9,7 +9,6 @@
 @section('logo', URL::to('/assets/images/logo2.png'))
 @section('cart', URL::to('/assets/images/cart-icon.png'))
 @section('has-cart', 'has-cart')
-
 @section('content')
 	<div class="swiper-container backs" id="first">
 	    <div class="swiper-wrapper">
@@ -58,7 +57,7 @@
 				<h1>{!! trans('main.easy_steps') !!}</h1>
 				<div class="row">
 					<div class="col-xs-12 col-md-4 col-sm-6">
-						<div class="card active">
+						<div class="card {{ !isset($data->questionnaire_id) || $data->questionnaire_id == null ? 'active' : '' }}">
 							<img src="{{ URL::to('/assets/images/icon1.png') }}" alt="icon">
 							<h3>{!! trans('main.card1_h') !!}</h3>
 							<p>{{ trans('main.card1_p') }}</p>
@@ -66,16 +65,16 @@
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-4 col-sm-6">
-						<div class="card">
-							<img src="{{ URL::to('/assets/images/icon2.png') }}" alt="icon">
+						<div class="card {{ isset($data->questionnaire_id) && $data->images == null && $data->questionnaire_id > 0 ? 'active' : '' }}">
+							<img src="{{ URL::to('/assets/images/icon2.png') }}" style="{{ isset($data->questionnaire_id) && $data->questionnaire_id > 0 ? 'background-color: #FFF;' : '' }}" alt="icon">
 							<h3>{!! trans('main.card2_h') !!}</h3>
 							<p>{{ trans('main.card2_p') }}</p>
 							<a href="{{ URL::to('/uploadPage') }}" class="header-button">{{ trans('main.card2_button') }}</a>
 						</div>
 					</div>
 					<div class="col-xs-12 col-md-4 col-sm-6">
-						<div class="card">
-							<img src="{{ URL::to('/assets/images/icon3.png') }}" alt="icon">
+						<div class="card {{ isset($data->images) && $data->images != null ? 'active' : '' }}">
+							<img src="{{ URL::to('/assets/images/icon3.png') }}" style="{{ isset($data->images) && $data->images != null ? 'background-color: #FFF;' : '' }}" alt="icon">
 							<h3>{!! trans('main.card3_h') !!}</h3>
 							<p>{!! trans('main.card3_p') !!}</p>
 							<a href="{{ URL::to('/details') }}" class="header-button">{{ trans('main.card3_button') }}</a>

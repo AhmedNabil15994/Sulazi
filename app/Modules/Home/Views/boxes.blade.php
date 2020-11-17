@@ -18,14 +18,14 @@
 				<p class="main">{{ trans('main.boxes_p') }}</p>
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-md-6 box animate__animated">
-						<a href="{{ URL::to('/boxDetails') }}">
+						<a href="{{ URL::to('/boxDetails/1') }}">
 							<img src="{{ URL::to('/assets/images/box1.png') }}" alt="box">
 						</a>
 						<p>{{ trans('main.boxes_box1') }}</p>
 						<p>1500 {{ trans('main.boxes_ras') }}</p>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 box animate__animated">
-						<a href="{{ URL::to('/boxDetails') }}">
+						<a href="{{ URL::to('/boxDetails/2') }}">
 							<img src="{{ URL::to('/assets/images/box2.png') }}" alt="box">
 						</a>
 						<p>{{ trans('main.boxes_box2') }}</p>
@@ -34,14 +34,14 @@
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-md-6 box animate__animated">
-						<a href="{{ URL::to('/boxDetails') }}">
+						<a href="{{ URL::to('/boxDetails/3') }}">
 							<img src="{{ URL::to('/assets/images/box3.png') }}" alt="box">
 						</a>
 						<p>{{ trans('main.boxes_box3') }}</p>
 						<p>700 {{ trans('main.boxes_ras') }}</p>
 					</div>
 					<div class="col-xs-12 col-sm-6 col-md-6 box animate__animated">
-						<a href="{{ URL::to('/boxDetails') }}">
+						<a href="{{ URL::to('/boxDetails/4') }}">
 							<img src="{{ URL::to('/assets/images/box4.png') }}" alt="box">
 						</a>
 						<p>{{ trans('main.boxes_box4') }}</p>

@@ -16,6 +16,14 @@
 	color: #252525;
 	text-decoration: none;
 }
+.page .header-buttons:hover{
+    background-color: #252525;
+    color: #f6f6f6 !important;
+}
+.page .header-buttons:hover{
+    background-color: #252525;
+    color: #f6f6f6 !important;
+}
 .page .header-buttons{
 	display: inline-block;
 	background: #fbd46d ;

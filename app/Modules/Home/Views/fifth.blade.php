@@ -15,27 +15,31 @@
 			<div class="interior roomlift text-center">
 				<h1>{{ trans('main.sixth_page_h') }}</h1>
 				<div class="row">
-					<div class="col-xs-12 col-md-3"></div>
-					<div class="col-xs-12 col-md-2 col-sm-6 text-center">
-						<div class="cards">
-							<img src="{{ URL::to('/assets/images/asap.png') }}" alt="icon">							
+					<form action="{{ URL::to('/sixth') }}" method="post" accept-charset="utf-8">
+						@csrf
+						<input type="hidden" name="step" value="2">
+						<div class="col-xs-12 col-md-3"></div>
+						<div class="col-xs-12 col-md-2 col-sm-6 text-center">
+							<div class="cards">
+								<img src="{{ URL::to('/assets/images/asap.png') }}" alt="icon">							
+							</div>
+							<p>{{ trans('main.sixth_asap') }}</p>
 						</div>
-						<p>{{ trans('main.sixth_asap') }}</p>
-					</div>
-					<div class="col-xs-12 col-md-2 col-sm-6 text-center  active">
-						<div class="cards">
-							<img src="{{ URL::to('/assets/images/soonish.png') }}" alt="icon">							
+						<div class="col-xs-12 col-md-2 col-sm-6 text-center  active">
+							<div class="cards">
+								<img src="{{ URL::to('/assets/images/soonish.png') }}" alt="icon">							
+							</div>
+							<p>{{ trans('main.sixth_soonish') }}</p>
 						</div>
-						<p>{{ trans('main.sixth_soonish') }}</p>
-					</div>
-					<div class="col-xs-12 col-md-2 col-sm-6 text-center">
-						<div class="cards rush">
-							<img src="{{ URL::to('/assets/images/no-rush.png') }}" alt="icon">							
+						<div class="col-xs-12 col-md-2 col-sm-6 text-center">
+							<div class="cards rush">
+								<img src="{{ URL::to('/assets/images/no-rush.png') }}" alt="icon">							
+							</div>
+							<p>{{ trans('main.sixth_rush') }}</p>
 						</div>
-						<p>{{ trans('main.sixth_rush') }}</p>
-					</div>
-					<div class="clearfix"></div>
-					<a href="{{ URL::to('/sixth') }}" class="header-buttons">{{ trans('main.continue') }}</a>
+						<div class="clearfix"></div>
+						<button type="submit" class="header-buttons">{{ trans('main.continue') }}</button>
+					</form>
 				</div>
 			</div>
 		</div>

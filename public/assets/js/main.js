@@ -1,3 +1,51 @@
+/**
+ * Notification JS
+ */
+function successNotification(message) {
+    setTimeout(function () {
+        toastr.options = {
+            "closeButton": true,
+            "debug": false,
+            "progressBar": true,
+            "preventDuplicates": false,
+            "positionClass": "toast-top-right",
+            "onclick": null,
+            "showDuration": "400",
+            "hideDuration": "1000",
+            "timeOut": "7000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        };
+        toastr.success('Sulazi', message);
+    }, 1300);
+}
+
+function errorNotification(message) {
+    setTimeout(function () {
+        toastr.options = {
+            "closeButton": true,
+            "debug": false,
+            "progressBar": true,
+            "preventDuplicates": false,
+            "positionClass": "toast-top-right",
+            "onclick": null,
+            "showDuration": "400",
+            "hideDuration": "1000",
+            "timeOut": "7000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        };
+        toastr.error('Sulazi', message);
+    }, 1300);
+}
+
+
 $(function(){
 	$('.select2').select2();
 	$('.plus').on('click',function(){
@@ -11,7 +59,7 @@ $(function(){
 		}
 	});
 	var mainDir = $('html').attr('dir');
-	$('.img-anc.has-cart').on('click',function(){
+	$(document).on('click','.img-anc.has-cart',function(){
 		if(mainDir == 'ltr'){
 			$('.cart-aside').css('right','0');
 		}else{
@@ -36,4 +84,20 @@ $(function(){
 			}
 		});
 	});
+
+	function indexInClass(collection, node) {
+	  for (var i = 0; i < collection.length; i++) {
+	    if (collection[i] === node)
+	      return i;
+	  }
+	  return -1;
+	}
+
+
+	$('div.cards').on('click',function(){
+		$(this).parent('.col-xs-12.text-center').addClass('active').siblings('.col-xs-12.text-center.active').removeClass('active');
+		$(this).attr('id','activeCard').parent('.col-xs-12.text-center').siblings('.col-xs-12.text-center').children('.cards#activeCard').attr('id','');
+		$(this).parent('.col-xs-12.text-center').siblings('input[name="step"]').val(indexInClass(document.getElementsByClassName('cards') , document.getElementById('activeCard') ) + 1);
+	});
+
 });

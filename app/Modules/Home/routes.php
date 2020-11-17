@@ -6,11 +6,11 @@ Home
 Route::group(['prefix' => '/'] , function () {
     Route::get('/', 'HomeControllers@index');
     Route::get('/first', 'HomeControllers@first');
-    Route::get('/second', 'HomeControllers@second');
-    Route::get('/third', 'HomeControllers@third');
-    Route::get('/fourth', 'HomeControllers@fourth');
-    Route::get('/fifth', 'HomeControllers@fifth');
-    Route::get('/sixth', 'HomeControllers@sixth');
+    Route::any('/second', 'HomeControllers@second');
+    Route::any('/third', 'HomeControllers@third');
+    Route::any('/fourth', 'HomeControllers@fourth');
+    Route::any('/fifth', 'HomeControllers@fifth');
+    Route::any('/sixth', 'HomeControllers@sixth');
     Route::get('/boxes', 'HomeControllers@boxes');
     Route::get('/getStarted', 'HomeControllers@getStarted');
     Route::get('/contactUs', 'HomeControllers@contactUs');
@@ -19,9 +19,10 @@ Route::group(['prefix' => '/'] , function () {
     Route::get('/prices', 'HomeControllers@prices');
     Route::get('/faqs', 'HomeControllers@faqs');
     Route::get('/giftCard', 'HomeControllers@giftCard');
-    Route::get('/uploadPage', 'HomeControllers@uploadPage');
-    Route::get('/boxDetails', 'HomeControllers@boxDetails');
-    Route::get('/questionnaire', 'HomeControllers@questionnaire');
+    Route::any('/uploadPage', 'HomeControllers@uploadPage');
+    Route::post('/uploadFiles', 'HomeControllers@uploadFiles');
+    Route::get('/boxDetails/{id}', 'HomeControllers@boxDetails');
+    Route::any('/questionnaire', 'HomeControllers@questionnaire');
     Route::get('/process', 'HomeControllers@process');
     Route::get('/shipping', 'HomeControllers@shipping');
     Route::get('/info', 'HomeControllers@info');
