@@ -9,7 +9,7 @@
 			<img src="{{ URL::to('/assets/images/twitter.png') }}" alt="icon">
 		</div>
 		<div class="row">
-			<a href="{{ URL::to('/info') }}">{{ trans('main.how_it') }}</a>
+			<a href="#">{{ trans('main.how_it') }}</a>
 			<a href="{{ URL::to('/prices') }}">{{ trans('main.prices') }}</a>
 			<a href="{{ URL::to('/press') }}">{{ trans('main.press') }}</a>
 			<a href="{{ URL::to('/giftCard') }}">{{ trans('main.gift_card') }}</a>
@@ -34,6 +34,9 @@
 <script src="{{ asset('assets/plugins/select2/select2.min.js') }}" type="text/javascript"></script>
 <!-- iCheck -->
 <script  src="{{ asset('assets/vendors/iCheck/icheck.min.js')}}"></script>
+<script src="{{ asset('assets/components/notifications.js')}}"></script>
+<script src="{{ asset('assets/components/cookies.js')}}"></script>
+<script src="{{ asset('assets/components/cart.js')}}"></script>
 
 
 <script src="{{ URL::to('/assets/js/main.js') }}"></script>

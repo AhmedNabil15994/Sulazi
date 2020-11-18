@@ -21,7 +21,7 @@
 					</div>
 					<div class="col-xs-12 col-md-6">
 						<p>{{ trans('main.gift_card_p') }}</p>
-						<p class="value">250.00 {{ trans('main.sar') }}</p>
+						<p class="value"><span class="cost">250</span> {{ trans('main.sar') }}</p>
 						<p>{{ trans('main.size') }}</p>
 						<span class="gift">50 {{ trans('main.sar') }}</span>
 						<span class="gift">150 {{ trans('main.sar') }}</span>
@@ -29,7 +29,7 @@
 						<span class="gift">500 {{ trans('main.sar') }}</span>
 						<span class="gift">750 {{ trans('main.sar') }}</span>
 						<div class="clearfix"></div>
-						<button class="header-buttons">{{ trans('main.add_to_cart') }}</button>
+						<button class="header-buttons cart-button">{{ trans('main.add_to_cart') }}</button>
 						<button class="header-buttons">{{ trans('main.buy_it') }}</button>
 						<p>* {{ trans('main.giftNote') }}.</p>
 					</div>

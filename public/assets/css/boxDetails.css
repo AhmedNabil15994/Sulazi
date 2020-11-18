@@ -87,7 +87,8 @@ img.main-image{
 	margin-bottom: 10px;
 	display: inline-block;
 }
-.col-md-6 span.active{
+.col-md-6 span.active,
+.col-md-6 span.gift:hover{
 	border: 0;
 	background: #fbd46d;
 }

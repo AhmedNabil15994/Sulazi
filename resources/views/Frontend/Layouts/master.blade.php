@@ -16,28 +16,15 @@
         <div class="cart-aside">
             <h1>{{ trans('main.cart') }} <span class="pull-right"><i class="fa fa-times"></i></span></h1>
             <div class="cart-data">
-                <div class="col-xs-12 col-sm-12 col-md-4">
-                    <img src="{{ URL::to('/assets/images/follow2.png') }}" alt="icon">
-                </div>
-                <div class="col-xs-12 col-sm-12 col-md-8">
-                    <p>1 roomLift with Samples & 2 Designs</p>
-                    <span class="pull-left">1 {{ trans('main.room') }}</span>
-                    <span class="pull-right">1500 {{ trans('main.sar') }}</span>
-                    <div class="clearfix"></div>
-                    <a href="#" class="minus"><i class="fa fa-minus"></i></a>
-                    <span class="values">1</span>
-                    <a href="#" class="plus"><i class="fa fa-plus"></i></a>
-                </div>
                 <div class="clearfix"></div>
-                <hr>
                 <div class="order-data">
                     <h1>{{ trans('main.order_notes') }}</h1>
                     <textarea class="" placeholder=""></textarea>
                     <span class="pull-left">{{ trans('main.subtotal') }}</span>
-                    <span class="pull-right">2500 {{ trans('main.sar') }}</span>
+                    <span class="pull-right"><b class="total-cost">2500</b> {{ trans('main.sar') }}</span>
                     <div class="clearfix"></div>
                     <p>{{ trans('main.cart_p') }}</p>
-                    <a href="#" class="header-button" title="">{{ trans('main.checkout') }}</a>
+                    <a href="{{ URL::to('/info') }}" class="header-button" title="">{{ trans('main.checkout') }}</a>
                 </div>
             </div>
         </div>

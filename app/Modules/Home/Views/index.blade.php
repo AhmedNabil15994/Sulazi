@@ -8,7 +8,7 @@
 @endsection
 @section('logo', URL::to('/assets/images/logo2.png'))
 @section('cart', URL::to('/assets/images/cart-icon.png'))
-@section('has-cart', 'has-cart')
+
 @section('content')
 	<div class="swiper-container backs" id="first">
 	    <div class="swiper-wrapper">

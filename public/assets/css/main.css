@@ -247,8 +247,15 @@ body {
 	font-size: 24px;
 	margin-bottom: 20px;
 }
+.hiddenVis{
+    visibility: hidden !important;
+}
+.datas span.pull-right{
+    font-weight: bold;
+}
 .cart-aside{
 	position: fixed;
+    overflow-y: scroll;
 	top: 0;
     width: 650px;
     height: 100%;
@@ -369,6 +376,12 @@ div#overlay{
     margin-top: 40px;
     background: #EEC946;
 	outline: 0;
+    transition: all ease-in-out .25s;
+}
+.cart-aside .order-data a.header-button:hover{
+    color: #EEC946;
+    background: #403B28;
+
 }
 .img-anc{
 	padding-left: 0 !important;

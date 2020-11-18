@@ -33,7 +33,7 @@
 						<span class="gift active" value="1">1 {{ trans('main.room') }}</span>
 						<span class="gift" value="2">2 {{ trans('main.room') }}</span>
 						<div class="clearfix"></div>
-						<button class="header-buttons">{{ trans('main.add_to_cart') }}</button>
+						<button class="header-buttons cart-button">{{ trans('main.add_to_cart') }}</button>
 						<button class="header-buttons">{{ trans('main.buy_it') }}</button>
 						<p>{{ trans('main.box_det_p1') }}</p>
 						<p>{{ trans('main.box_det_p2') }}</p>
